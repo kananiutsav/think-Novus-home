@@ -72,14 +72,14 @@ const ClientReview = ({ data }: clientSay) => {
                                                 <p className='text-[16px] font-[600]'>{item.profession}</p>
                                             </div>
                                         </div>
-                                        <div className='flex text-white justify-center font-[800] '>
+                                        <div className='flex text-white justify-center font-[800]  '>
                                             <div className="swiper-btn-prev">
-                                                <div className="py-[12px] px-[12px] text-white round mr-5">
+                                                <div className=" py-[12px] px-[12px] text-white round mr-5 hover:text-blue-700">
                                                     <LuChevronLeft fontSize={23} fontStyle={700} />
                                                 </div>
                                             </div>
                                             <div className="swiper-btn-next">
-                                                <div className="py-[12px] px-[12px] round mr-5 relative group">
+                                                <div className="py-[12px] px-[12px] round mr-5 relative group hover:text-blue-700">
                                                     <LuChevronRight fontSize={23} className="cursor-pointer hover:text-custom-gradient" />
 
                                                 </div>

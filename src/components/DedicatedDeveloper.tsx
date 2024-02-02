@@ -22,7 +22,7 @@ const DedicatedDeveloper = ({ data }: DevelopersData) => {
                         data.map((item) => (
                             <div
                                 key={item.id}
-                                className={`text-white gap-x-[20px] flex py-[27px] px-[45px] ${item.id === 3 ? 'mx-auto ' : ''} w-[${item.id === 3 ? 818 : 399}px] bg-[#1A1826] rounded-[10px]  text-center justify-center`}
+                                className={`text-white gap-x-[20px] flex  ${item.id === 3 ? 'px-[172px]' : 'px-[45px]'} py-[27px]  ${item.id === 3 ? '' : ''} w-[${item.id === 3 ? 818 : 399}px] bg-[#1A1826] rounded-[10px]  text-center justify-center`}
                             >
                                 <div>
                                     <div className='text-[20px] font-[600] leading-[30px] pb-[14px]'>

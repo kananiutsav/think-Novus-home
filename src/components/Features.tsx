@@ -31,12 +31,12 @@ const Features = ({ data }: FeatureData) => {
                     </div>
                     <div className='flex text-white justify-end w-[30%]'>
                     <div className="swiper-btn-prev">
-                        <div className="py-3 px-3 text-white round mr-5">
+                        <div className="py-3 px-3 text-white round mr-5 hover:text-blue-700">
                             <FiArrowLeft fontSize={20} />
                         </div>
                     </div>
                     <div className="swiper-btn-next">
-                        <div className="py-3 px-3 text-white round mr-5 relative group">
+                        <div className="py-3 px-3 text-white round mr-5 relative group hover:text-blue-700">
                             <FiArrowRight fontSize={20} className="cursor-pointer hover:text-custom-gradient" />
 
                         </div>
