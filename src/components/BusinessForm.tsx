@@ -32,7 +32,7 @@ type lastFooterData = {
 
 const BusinessForm: React.FC<BusinessDetailsData & BusinessServicesData & AwardsData & lastFooterData> = ({ data, item, award, footer }) => {
   return (
-    <div className="text-white mx-auto my-[50px] w-[1200px] rounded-[10px] h-[726px] bg-[#1A1826] border border-solid border-[#8920FE]">
+    <div className="text-white mx-auto my-[50px] w-[1200px] rounded-[10px] h-[726px] bg-[#1A1826] square">
       <div className='ml-[44px] '>
         <h1 className='text-white py-[14px] text-[48px] font-[500] leading-[64px]'>Let’s Talk <span className='custom-gradient'>Business!</span></h1>
         <p className='text-[#D2D0DD]   text-[18px] leading-[28px] font-[400] flex-col flex justify-center '>Have questions about your idea? in your details to discuss with our solution consultants. We look forward to hear from you.</p>

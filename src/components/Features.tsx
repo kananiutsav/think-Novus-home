@@ -31,12 +31,12 @@ const Features = ({ data }: FeatureData) => {
                     </div>
                     <div className='flex text-white justify-end w-[30%]'>
                     <div className="swiper-btn-prev">
-                        <div className="py-3 px-3 text-white border-white border-4  rounded-[28px] mr-5">
+                        <div className="py-3 px-3 text-white round mr-5">
                             <FiArrowLeft fontSize={20} />
                         </div>
                     </div>
                     <div className="swiper-btn-next">
-                        <div className="py-3 px-3 text-white border-white border-4 rounded-[28px] mr-5 relative group">
+                        <div className="py-3 px-3 text-white round mr-5 relative group">
                             <FiArrowRight fontSize={20} className="cursor-pointer hover:text-custom-gradient" />
 
                         </div>
@@ -68,8 +68,8 @@ const Features = ({ data }: FeatureData) => {
 
                         {data && data.map((item) => (
                             <SwiperSlide key={item.id}>
-                                <div className='mt-[40px]'>
-                                    <div className='bg-[#1A1826] flex w-[72px] h-[72px] p-[13.5px] justify-center items-center shrink-0  rounded-[55.125px] z-10 absolute top-0 left-[22px] border-custom border-2 border-solid hover:border-[#FF0BE5]' >
+                                <div className='mt-[40px]  '>
+                                    <div className='bg-[#1A1826] flex w-[72px] h-[72px] p-[13.5px] justify-center items-center shrink-0  rounded-[55.125px] z-10 absolute top-0 left-[22px] round2' >
                                         <Image
                                             src={item.img}
                                             alt=''
@@ -78,7 +78,7 @@ const Features = ({ data }: FeatureData) => {
 
                                         />
                                     </div>
-                                    <div className=' w-[285px] justify-center   h-[347px] shrink-0 rounded-[14px] item-center   flex flex-col border-custom bg-[#1A1826]  border-2 border-solid hover:border-[#FF0BE5] relative'>
+                                    <div className=' w-[285px] justify-center   h-[347px] shrink-0 rounded-[14px] item-center   flex flex-col bg-[#1A1826]  relative square'>
                                         <div className='w-[241px] mx-auto '>
                                             <h1 className='text-[24px] font-[500] leading-[32px] text-white '> {item.title}</h1>
                                             <h1 className='text-[24px] font-[500] leading-[32px] text-white'> {item.subtitle}</h1>

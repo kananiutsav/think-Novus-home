@@ -17,12 +17,8 @@
 -webkit-text-fill-color: transparent;
 }
 
-/* .custom-gradient:hover {
-  background: linear-gradient(290deg, #21D4FD 15.9%, #B721FF 82.02%);
-  background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-} */
+
+
 .gradient-text {
   color: linear-gradient(290deg, #21D4FD 15.9%, #B721FF 82.02%);
   background-clip: text;
@@ -48,6 +44,10 @@
 
 input:focus {
   outline: none;
+}
+
+.custom-gradient {
+  border-color: gradient-to-r from-purple-500 via-purple-700 to-blue-500;
 }
 /*
 @media (prefers-color-scheme: dark) {
@@ -140,6 +140,122 @@ flex-wrap: wrap;
 .our-product-slider .swiper-initialized .swiper-slide:last-child.swiper-slide-active {
   margin-right: 200px !important;
 }
+
+/* .round{
+  border: 2px solid transparent;
+ 
+  background: 
+  linear-gradient(#151515,#151515) padding-box,
+  linear-gradient(to top, #11998e, #38ef7d) border-box;
+  border-radius: 50%;
+} */
+
+/* swiper button */
+.round {
+  border: 2px solid transparent;
+  background: 
+    linear-gradient(#151515, #151515) padding-box,
+    linear-gradient(to right, #fff,#fff) border-box;
+  border-radius: 50%;
+}
+.round:hover {
+  border: 2px solid transparent;
+  background: 
+
+    linear-gradient(#151515, #151515) padding-box,
+    linear-gradient(to right, #8920fe,#45c4f9) border-box;
+    border-radius: 50%;
+    
+}
+
+/* swiper slide border */
+.square {
+  border: 2px solid transparent;
+  background: 
+    linear-gradient(#1A1826, #1A1826) padding-box,
+    linear-gradient(to top, #1A1826, #1A1826) border-box;
+}
+.square:hover {
+  background: 
+    linear-gradient(#151515, #151515) padding-box,
+    linear-gradient(to right, #8920fe,#45c4f9) border-box;
+    border: 2px solid transparent;   
+}
+/* filter component used  */
+.filter {
+  border: 2px solid transparent;
+  background: 
+    linear-gradient(#000, #000) padding-box,
+    linear-gradient(to top, #1B1B1B, #1B1B1B) border-box;
+}
+.filter:hover {
+  background: 
+    linear-gradient(#000, #000) padding-box,
+    linear-gradient(to right, #8920fe,#45c4f9) border-box;
+    border: 2px solid transparent;     
+}
+
+.color-texts {
+  background: linear-gradient(290deg, #fff 15.9%, #fff 82.02%);
+  background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.color-texts:hover {
+  background: linear-gradient(290deg, #21D4FD 15.9%, #B721FF 82.02%);
+  background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+/* button side border filter */
+
+.adc {
+  border: 2px solid transparent;
+  background: 
+    linear-gradient(#151515, #151515) padding-box,
+    linear-gradient(to top, #fff, #fff) border-box;
+  border-radius: 50px;
+}
+
+/* partnership border */
+
+.partner {
+  border: 2px solid transparent;
+  background: 
+  linear-gradient(#151515, #151515) padding-box,
+  linear-gradient(to right, #8920fe,#45c4f9) border-box;
+ border-radius: 14px;
+
+}
+.adc:hover {
+  background: 
+    linear-gradient(#151515, #151515) padding-box,
+    linear-gradient(to right, #8920fe,#45c4f9) border-box;
+    border-radius: 50px;
+    border: 2px solid transparent;
+}
+
+/* //feature round */
+.round2 {
+  border: 2px solid transparent;
+  background: 
+    linear-gradient(#1A1826, #1A1826) padding-box,
+    linear-gradient(to right, #1A1826,#1A1826) border-box;
+  border-radius: 50%;
+}
+.round2:hover {
+  border: 2px solid transparent;
+  background: 
+
+    linear-gradient(#151515, #151515) padding-box,
+    linear-gradient(to right, #8920fe,#45c4f9) border-box;
+    border-radius: 50%; 
+}
+
+
+
+
 
 
 

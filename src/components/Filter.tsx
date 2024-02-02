@@ -88,10 +88,9 @@ const Filter: React.FC<FilterProps> = ({ data }) => {
           <div className='w-[30%] '>
             {data.map((item) => (
               <div key={item.id} className='mb-2 flex'>
-                <div className='flex flex-col'>
+                <div className='flex flex-col '>
                   <button
-                    className={`w-[230px] h-[65px] p-2 text-start ml-4 text-[24px] font-[500] rounded ${selectedHeading === item.id ? 'custom-gradient' : 'bg-clack text-white'
-                      }`}
+                    className={`w-[230px] h-[65px]  py-2 px-4 text-start  text-[24px] font-[500] rounded ${selectedHeading === item.id ? 'custom-gradient   border-l-2 border-solid ' : 'bg-black text-white' }`}
                     onClick={() => setSelectedHeading(item.id)}
                   >
                     {item.heading}
@@ -105,13 +104,13 @@ const Filter: React.FC<FilterProps> = ({ data }) => {
               selectedHeading === item.id && (
                 <div key={item.id} className='mt-2 grid grid-cols-1 md:grid-cols-4 items-center  lg:grid-cols-5 gap-4 '>
                   {item.subtitle.map((subItem) => (
-                    <div key={subItem.id} className='mb-2 w-[170px] h-[170px] items-center  border-2 border-solid border-[#1B1B1B] rounded-[10px] '>
+                    <div key={subItem.id} className='filter  mb-2 w-[170px] h-[170px] items-center   rounded-[10px] '>
                       <Image
                         src={subItem.img}
                         alt=''
                         className='w-[50px] h-[50px] ml-[55px] mt-10'
                       />
-                      <p className='hover:text-pink-500 text-white  font-[500] text-[20px] mt-[20px] text-center'>{subItem.title}</p>
+                      <p className='color-texts   font-[500] text-[20px] mt-[20px] text-center'>{subItem.title}</p>
                     </div>
                   ))}
                 </div>

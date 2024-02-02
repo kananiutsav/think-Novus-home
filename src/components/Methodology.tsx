@@ -25,7 +25,7 @@ const Methodology = ({ data }: MethodologyData) => {
                 <div className='flex  gap-[20px] mt-[30px]'>
                     {data &&
                         data.map((item) => (
-                            <div key={item.id} className="  bg-[#1A1826] w-[285px] h-[328px] flex items-start gap-[10px] border-solid border-custom  border-2 hover:border-[#FF0BE5] py-[28px] px-[22px] rounded-[20px]  ">
+                            <div key={item.id} className="  bg-[#1A1826] w-[285px] h-[328px] flex items-start gap-[10px] square py-[28px] px-[22px] rounded-[20px]  ">
 
                                 <div className='flex flex-col items-start  gap-[18px]'>
 

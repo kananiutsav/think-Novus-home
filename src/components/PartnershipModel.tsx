@@ -57,7 +57,7 @@ const PartnershipModel: React.FC<PartnershipModelData> = ({ data }) => {
                         <div className=' '>
                             {data.map((item) => (
                                 selectedHeading === item.id && (
-                                    <div key={item.id} className='mt-[30px] flex w-[945px] mx-auto h-[216px] items-start justify-evenly pt-[30px] pb-[55px] rounded-[14px] border-2 border-[#FF0BE5] border-solid bg-[#05020D]'>
+                                    <div key={item.id} className='mt-[30px] flex w-[945px] mx-auto h-[216px] items-start justify-evenly pt-[30px] pb-[55px] partner bg-[#05020D]'>
                                         {item.detail.map((subItem) => (
                                             <div key={subItem.id} className='justify-center'>
                                                 <div className=''>

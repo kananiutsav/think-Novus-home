@@ -74,12 +74,12 @@ const ClientReview = ({ data }: clientSay) => {
                                         </div>
                                         <div className='flex text-white justify-center font-[800] '>
                                             <div className="swiper-btn-prev">
-                                                <div className="py-[12px] px-[12px] text-white border-white border-2  rounded-[28px] mr-5">
+                                                <div className="py-[12px] px-[12px] text-white round mr-5">
                                                     <LuChevronLeft fontSize={23} fontStyle={700} />
                                                 </div>
                                             </div>
                                             <div className="swiper-btn-next">
-                                                <div className="py-[12px] px-[12px] text-white border-white border-2 rounded-[28px] mr-5 relative group">
+                                                <div className="py-[12px] px-[12px] round mr-5 relative group">
                                                     <LuChevronRight fontSize={23} className="cursor-pointer hover:text-custom-gradient" />
 
                                                 </div>

@@ -54,7 +54,6 @@ export default function Home() {
       <Address data={companyAddress}/>
       <Footer data={footer}/>
       <Footer2 data={lastFooter}/>
-
     </div>
 
   )

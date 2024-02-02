@@ -12,6 +12,12 @@ const config: Config = {
       //   sans: ['var(--font-inter)'],
       //   mono: ['var(--font-roboto-mono)'],
       // },
+      linearGradientColors: {
+       
+       
+          'custom': 'rgba(0, 0, 0, 0.00) 4.08%, rgba(0, 0, 0, 0.58) 27%, rgba(0, 0, 0, 0.73) 54.48%, #000 100%',
+        
+      },
       backgroundImage: {
         // 'gradient': 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 4.08%, rgba(0, 0, 0, 0.58) 27%, rgba(0, 0, 0, 0.73) 54.48%, #000 100%)',
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -30,9 +36,7 @@ const config: Config = {
         'custom': '#8920FE;', // Add your custom border color here
       },
   
-      linearGradientColors: {
-        'custom': 'rgba(0, 0, 0, 0.00) 4.08%, rgba(0, 0, 0, 0.58) 27%, rgba(0, 0, 0, 0.73) 54.48%, #000 100%',
-      },
+     
     },
   },
   plugins: [
