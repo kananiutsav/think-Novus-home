@@ -168,6 +168,31 @@ flex-wrap: wrap;
     
 }
 
+
+.btn {
+  border: 2px solid transparent;
+  background: 
+
+    linear-gradient(#151515, #151515) padding-box,
+    linear-gradient(to right, #FF0BE5,#8920FE,#45C4F9 ) border-box;
+    /* border-radius: 50%; */
+    
+}
+
+.box {
+  background: 
+    linear-gradient(#1A1826, #1A1826) padding-box,
+    linear-gradient(to right, #FF0BE5,#8920FE,#45C4F9 ) border-box;
+    border: 2px solid transparent;   
+}
+
+.lookingborder {
+  background: 
+    linear-gradient(#000, #000) padding-box,
+    linear-gradient(to right, #FF0BE5,#8920FE,#45C4F9 ) border-box;
+    border: 2px solid transparent;   
+}
+
 /* swiper slide border */
 .square {
   border: 2px solid transparent;
@@ -182,6 +207,24 @@ flex-wrap: wrap;
     border: 2px solid transparent;   
 }
 /* filter component used  */
+
+/* 
+100%
+
+100%
+*/
+.toolsborder {
+  border: 2px solid transparent;
+  background: 
+    linear-gradient(#1A1826, #1A1826) padding-box,
+    linear-gradient(to top, #1A1826, #1A1826) border-box;
+}
+.toolsborder:hover {
+  background: 
+    linear-gradient(#1A1826, #1A1826) padding-box,
+    linear-gradient(to right, #FF0BE5,#8920FE,#45C4F9 ) border-box;
+    border: 2px solid transparent;   
+}
 .filter {
   border: 2px solid transparent;
   background: 

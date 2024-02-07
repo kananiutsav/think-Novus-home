@@ -138,6 +138,28 @@ import ThePour from "@/videos/ThePour.mp4"
 import video1 from "@/videos/video1.mp4"
 
 
+import wds1 from "@/assets/image/wds1.png"
+import wds2 from "@/assets/image/wds2.png"
+import wds3 from "@/assets/image/wds3.png"
+import wds4 from "@/assets/image/wds4.png"
+import wds5 from "@/assets/image/wds5.png"
+import wds6 from "@/assets/image/wds6.png"
+
+import Engage1 from "@/assets/image/Engage1.png"
+import Engage2 from "@/assets/image/Engage2.png"
+import Engage3 from "@/assets/image/Engage3.png"
+
+import pinterest from "@/assets/image/pinterest.png"
+import clutch from "@/assets/image/clutch.png"
+import behance from "@/assets/image/behance.png"
+import dribbble from "@/assets/image/dribbble.png"
+
+import v1 from "@/assets/image/v1.png"
+import v2 from "@/assets/image/v2.png"
+import v3 from "@/assets/image/v3.png"
+import v4 from "@/assets/image/v4.png"
+import v5 from "@/assets/image/v5.png"
+import v6 from "@/assets/image/v6.png"
 
 const CompanyPartnerss = [
     {
@@ -924,6 +946,339 @@ const developer=[
 ]
 
 
+//services page  data
+
+const toolsTechHeading=[
+    {
+        id:1,
+        heading:"Tools & Technologies We Use For",
+        innHeading:"Web Development",
+        subtitle:"Here's the list of mobile app development tools and technologies that enables us to convert mobile app ideas into real projects creatively. "
+    }
+]
+
+const webToolsAndTechnology =[
+    {
+        id:1,
+        title:"Font-end technologies",
+        detail:[{subtitle:"JavaScript"},{subtitle:"TypeScript"},{subtitle:"Angular"},{subtitle:"React.js"},{subtitle:"vue.js"},{subtitle:"Backbone.js"},{subtitle:"Ember.js"},{subtitle:"Bootstrap"},{subtitle:"HTML5"},{subtitle:"CSS3"}]
+    },
+    {
+        id:2,
+        title:"Back-end technologies",
+        detail:[{subtitle:"Laravel"},{subtitle:"Node.js"},{subtitle:"Golang"},{subtitle:"Python"},{subtitle:"vue.js"},{subtitle:"Meteor.js"},{subtitle:"Express.js"},{subtitle:"PHP"}]
+    },
+    {
+        id:3,
+        title:"Database",
+        detail:[{subtitle:"Firebase"},{subtitle:"Redis"},{subtitle:"PostgreSQL"},{subtitle:"MongoDB"},{subtitle:"MySQL"},{subtitle:"DynamoDB"},{subtitle:"Oracle"},{subtitle:"SQLite"}]
+    },
+    {
+        id:4,
+        title:"Design Tools",
+        detail:[{subtitle:"Illustrator"},{subtitle:"Adobe XD"},{subtitle:"Photoshop"},{subtitle:"After Effects"},{subtitle:"Sketch"},{subtitle:"Figma"},{subtitle:"InVision"},{subtitle:"Zeplin"},{subtitle:"HTML5"},{subtitle:"CSS3"}]
+    }
+]
+
+const askQuestionHeading=[
+    {
+        id:1,
+        heading:"Frequently Asked ",
+        innHeading:"Questions",
+        subtitle:"Here, we've compiled a list of FAQs about our Web development services that you might have and many of our clients have asked us: "
+    }
+]
+
+const askQuestion =[
+    {
+        id:1,
+        question:"What Does a Web Development Company Do?",
+        Ans:"A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
+    },
+    {
+        id:2,
+        question:"How Long Does It Take To Build a Website?",
+        Ans:"A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
+    },
+    {
+        id:3,
+        question:"What Are the Benefits of Working With a Web Development Company?",
+        Ans:"A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
+    },
+    {
+        id:4,
+        question:"How to Prepare Before Partnering With a Web Development Company?",
+        Ans:"A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
+    },
+    {
+        id:5,
+        question:"How Long Does a Web Development Project Take To Complete From Start to Finish?",
+        Ans:"A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
+    },
+    {
+        id:6,
+        question:"Can You Help Me Complete My Incomplete Web/App Development Project?",
+        Ans:"A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
+    },
+    {
+        id:7,
+        question:"We Already Have Designs Ready, Can You Work With Those?",
+        Ans:"A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
+    },
+    {
+        id:8,
+        question:"How Do Content Management Systems (CMS) Fit Into Web Development?",
+        Ans:"A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
+    }
+]
+
+const lookingWebCom=[
+    {
+        id:1,
+        title:"Looking for a Web Development Company?",
+        subtitle:"Still thinking about whether to start your software project or need some guidance? Don't worry! Just schedule a call with us, and our executives will help you define the best-fit solution to meet your requirements.",
+        btn:"Schedule A Call"
+    }
+]
+
+const webdevServicesHeading=[
+    {
+        id:1,
+        heading:"Our Web Development ",
+        innHeading:"Services",
+        subtitle:"ThinkNovus has successfully delivered 4K+ web development projects ranging from web-based apps, e-commerce portals, CMS, B2B & B2C applications, Intranet and Extranet Portals, and more. With our bespoke "
+    }
+]
+
+const webDevService=[
+{
+    id:1,
+    img:wds1,
+    title:"Backend Development",
+    detail:"We provide a solid back end to your website/app/software operations with our backend development services."
+},
+{
+    id:2,
+    img:wds2,
+    title:"Frontend Development",
+    detail:"Put a right digital face forward. With our frontend development services we ensure our UI/UX techniques fall right into the face."
+},
+{
+    id:3,
+    img:wds3,
+    title:"JavaScript Development",
+    detail:"Build a dynamic, responsive and feature-rich app that brings great impact for your organization with our JavaScript development services."
+},
+{
+    id:4,
+    img:wds4,
+    title:"Microsoft Development",
+    detail:"With our Microsoft expertise, we deliver modern adaptive web platforms and strong secure backend to build your business operations with ease."
+},
+{
+    id:5,
+    img:wds5,
+    title:"CMS Development",
+    detail:"Benefit from our CMS development services to gain a CMS that helps you intuitively update your site with flexibility."
+},
+{
+    id:6,
+    img:wds6,
+    title:"eCommerce Development",
+    detail:"We help you set the standard of eCommerce website in the market and boost the online presence with a lot of revenue."
+},
+]
+
+const devServices=[
+    {
+        id:1,
+        title:"Backend Development",
+        detail:"We provide a solid back end to your website/app/software operations with our backend development services."
+    },
+    {
+        id:2,
+        title:"Frontend Development",
+        detail:"Put a right digital face forward. With our frontend development services we ensure our UI/UX techniques fall right into the face."
+    },
+    {
+        id:3,
+        title:"JavaScript Development",
+        detail:"Build a dynamic, responsive and feature-rich app that brings great impact for your organization with our JavaScript development services."
+    },
+    {
+        id:4,
+        title:"Microsoft Development",
+        detail:"With our Microsoft expertise, we deliver modern adaptive web platforms and strong secure backend to build your business operations with ease."
+    },
+    {
+        id:5,
+        title:"CMS Development",
+        detail:"Benefit from our CMS development services to gain a CMS that helps you intuitively update your site with flexibility."
+    },
+    {
+        id:6,
+        title:"eCommerce Development",
+        detail:"We help you set the standard of eCommerce website in the market and boost the online presence with a lot of revenue."
+    },
+]
+
+const webResult=[
+    {
+        id:1,
+        title:"Web Development Company",
+        subtitle:"That Deliver Websites Built For Results",
+        para1:"Your website is your brand. It is an asset built for executing brave business and marketing strategies. A platform where users get to virtually experience your brand values. It is therefore must to choose a website development service provider who you can rely upon for implementing every aspect with great excellence.",
+        para2:"We are a team of web developers that live these three fundamentals to core – user experience, scalability and security for website development. Our end-to-end web development services help you improve the online presence, add any new feature, boost revenue, and make the web design appealing. Let’s digitize the business and disrupt the market."
+    }
+]
+
+const webEngagementModelHeading=[
+    {
+        id:1,
+        heading:"Our Engagement Models  ",
+        innHeading:"for Web Development",
+        subtitle:"Our team of software development experts collaborates with clients to understand their roadblocks and objectives, enabling us to develop custom software development solutions that are efficient and scalable for diverse industries. "
+    }
+]
+
+const webEngagementModel=[
+{
+    id:1,
+    img1: Engage1,
+    title:"Build - Operate - Transfer",
+    detail:[{img2:check, work:"Long term collabration"},{img2:check, work:"Highly scalable team "},{img2:check, work:"Team ownership"},{img2:check, work:"Dedicated working centre"}]  
+},
+{
+    id:2,
+    img1: Engage2,
+    title:"Time & Material",
+    detail:[{img2:check, work:"Short-medium team collaboration"},{img2:check, work:"Low scalable team"},{img2:check, work:"Clean deadlines"},{img2:check, work:"Detailed specifications"}]  
+},
+{
+    id:3,
+    img1: Engage3,
+    title:"Fixed cost",
+    detail:[{img2:check, work:"Short-medium team collaboration"},{img2:check, work:"Flexible budget and timeframe "},{img2:check, work:"Complete control over the process"},{img2:check, work:"Highly scalable team"}]  
+}
+]
+
+const webSolutionHeading=[
+    {
+        id:1,
+        heading:"Web Development Solutions for ",
+        innHeading:"Diverse Industries",
+        subtitle:"Our team of software development experts collaborates with clients to understand their roadblocks and objectives, enabling us to develop custom software development solutions that are efficient and scalable for diverse industries. "
+    }
+]
+
+const webSolution=[
+    {
+        id:1,
+        heading:"Utilities & On Demand",
+        subHeading:"On-demand solutions to make  your life easier and more efficient.",
+        title:[{img1:check, detail:"Food Delivery Web"},{img1:check, detail:"Virtual Classroom Learning"},{img1:check, detail:"Ticket Booking & Bill Payment"},{img1:check, detail:"OTT streaming Website"}],
+        img2:arrowright
+    },
+    {
+        id:2,
+        heading:"Real Estate & Construction",
+        subHeading:"On-demand solutions to make your life easier and more efficient.",
+        title:[{img1:check, detail:"Property Marketplace"},{img1:check, detail:"Property Auction Portal"},{img1:check, detail:"ERP"},{img1:check, detail:"Property Valuation Tool"},{img1:check, detail:"AR/VR Property Tool"}],
+        img2:arrowright
+    },
+    {
+        id:3,
+        heading:"Logistics & Distribution",
+        subHeading:"Optimizing supply chain operations  with mobile solutions.",
+       
+        title:[{img1:check, detail:"Transport Management Solution"},{img1:check, detail:"Supply Chain Management"},{img1:check, detail:"Fleet Management"},{img1:check, detail:"Warehouse Management"},{img1:check, detail:"Courier Delivery"}],
+        img2:arrowright
+    },
+    {
+        id:4,
+        heading:"Utilities & On Demand",
+        subHeading:"On-demand solutions to make  your life easier and more efficient.",
+        title:[{img1:check, detail:"Food Delivery Web"},{img1:check, detail:"Virtual Classroom Learning"},{img1:check, detail:"Ticket Booking & Bill Payment"},{img1:check, detail:"OTT streaming Website"}],
+        img2:arrowright
+    },
+    {
+        id:5,
+        heading:"Real Estate & Construction",
+        subHeading:"On-demand solutions to make your life easier and more efficient.",
+        title:[{img1:check, detail:"Property Marketplace"},{img1:check, detail:"Property Auction Portal"},{img1:check, detail:"ERP"},{img1:check, detail:"Property Valuation Tool"},{img1:check, detail:"AR/VR Property Tool"}],
+        img2:arrowright
+    },
+    {
+        id:6,
+        heading:"Logistics & Distribution",
+        subHeading:"Optimizing supply chain operations  with mobile solutions.",
+       
+        title:[{img1:check, detail:"Transport Management Solution"},{img1:check, detail:"Supply Chain Management"},{img1:check, detail:"Fleet Management"},{img1:check, detail:"Warehouse Management"},{img1:check, detail:"Courier Delivery"}],
+        img2:arrowright
+    },
+]
+
+const whyCooseUS=[
+    {
+        id:1,
+        img: v1,
+        title:"30+",
+        subtitle:"Domains Served"
+    },
+    {
+        id:2,
+        img: v2,
+        title:"2K",
+        subtitle:"Web Project"
+    },
+    {
+        id:3,
+        img: v3,
+        title:"90%",
+        subtitle:"On-Time Delivery"
+    },
+    {
+        id:4,
+        img: v4,
+        title:"200",
+        subtitle:"Web Experts"
+    },
+    {
+        id:5,
+        img: v5,
+        title:"120+",
+        subtitle:"Web project"
+    },
+    {
+        id:6,
+        img: v6,
+        title:"165K+",
+        subtitle:"Man-hours of work"
+    }
+]
+
+const choosePhoto=[
+{
+    id:1,
+    img:dribbble,
+    title:"Dribbble"
+},
+{
+    id:2,
+    img:behance,
+    title:"Behance"
+},
+{
+    id:3,
+    img:clutch,
+    title:"Clutch"
+},
+{
+    id:4,
+    img:pinterest,
+    title:"Pinterest"
+},
+]
 
 export {
     CompanyPartnerss,
@@ -947,6 +1302,28 @@ export {
     businessWork,
     partnershipModel,
     benefit,
-    developer
+    developer,
+
+
+    //Service Page
+    webToolsAndTechnology,
+    askQuestion,
+    askQuestionHeading,
+    lookingWebCom,
+    devServices,
+    webResult,
+    webdevServicesHeading,
+    webDevService,
+    toolsTechHeading,
+    webSolutionHeading,
+    webSolution,
+    webEngagementModelHeading,
+    webEngagementModel,
+    whyCooseUS,
+    choosePhoto
+
 }
+
+
+
 

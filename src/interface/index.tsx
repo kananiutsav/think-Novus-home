@@ -177,3 +177,95 @@ export type Developers={
   heading: string
   detail: {img: any, title: string, subtitle: string}[]
 }
+
+//service page
+export type ToolsTechHeadings={
+  id: number
+  heading: string
+  innHeading: string
+  subtitle: string
+}
+export type WebToolsAndTechnologies={
+  id: number
+  title: string
+  detail:{subtitle: string}[]
+}
+export type AskQuestionHeading={
+  id: number
+  heading: string
+  innHeading: string
+  subtitle: string
+}
+
+export type AskQuestions={
+  id: number
+  question: string
+  Ans: string
+}
+
+export type LookingWebCompany={
+  id: number
+  title: string
+  subtitle: string
+  btn: string
+}
+
+export type WebResults={
+  id:number
+  title: string
+  subtitle: string
+  para1: string
+  para2:string
+}
+
+export type WebDevServicesHeadings={
+  id: number
+  heading: string
+  innHeading: string
+  subtitle: string
+}
+
+export type WebDevServices={
+  id: number
+  img: any
+  title: string
+  detail: string
+}
+
+export type WebEngagementModelHeadings={
+  id: number
+  heading: string
+  innHeading: string
+  subtitle: string
+}
+
+export type WebEngagementModels={
+  id: number
+  img1: any
+  title: string
+  detail: { img2: any, work:string}[]
+}
+export type WebSolutions={
+  id: number
+  heading: string
+  subHeading: string
+  title:{img1: any, detail: string}[]
+  img2: any
+}
+export type WebSolutionHeadings={
+  id: number
+  heading: string
+  innHeading: string
+  subtitle: string
+}
+export type WhyCooseUSWeb={
+  id:number
+  img: any
+  title: string
+  subtitle: string
+}
+export type ChooseWebPhotos={
+  id: number
+  img: any
+  title: string
+}

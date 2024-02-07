@@ -115,8 +115,31 @@ import dedicated4 from "@/assets/image/dedicated4.png"
 import dedicated5 from "@/assets/image/dedicated5.png"
 import dedicated6 from "@/assets/image/dedicated6.png"
 import sideimg from "@/assets/image/sideimg.png"
+import wds1 from "@/assets/image/wds1.png"
+import wds2 from "@/assets/image/wds2.png"
+import wds3 from "@/assets/image/wds3.png"
+import wds4 from "@/assets/image/wds4.png"
+import wds5 from "@/assets/image/wds5.png"
+import wds6 from "@/assets/image/wds6.png"
+
+import Engage1 from "@/assets/image/Engage1.png"
+import Engage2 from "@/assets/image/Engage2.png"
+import Engage3 from "@/assets/image/Engage3.png"
+
+import pinterest from "@/assets/image/pinterest.png"
+import clutch from "@/assets/image/clutch.png"
+import behance from "@/assets/image/behance.png"
+import dribbble from "@/assets/image/dribbble.png"
+
+import v1 from "@/assets/image/v1.png"
+import v2 from "@/assets/image/v2.png"
+import v3 from "@/assets/image/v3.png"
+import v4 from "@/assets/image/v4.png"
+import v5 from "@/assets/image/v5.png"
+import v6 from "@/assets/image/v6.png"
 
 
+import chooseimage from "@/assets/image/chooseimage.png"
 
 export {
     companypartner,
@@ -236,5 +259,24 @@ export {
     dedicated5,
     dedicated6,
     sideimg,
-
+    wds1,
+    wds2,
+    wds3,
+    wds4,
+    wds5,
+    wds6,
+    Engage1,
+    Engage2,
+    Engage3,
+    pinterest,
+    clutch,
+    dribbble,
+    behance,
+    v1,
+    v2,
+    v3,
+    v4,
+    v5,
+    v6,
+    chooseimage
 }
