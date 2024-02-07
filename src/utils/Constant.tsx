@@ -43,7 +43,7 @@ import health from "@/assets/image/health.png"
 import arrowright from "@/assets/image/arrowright.png"
 import ecommerce from "@/assets/image/ecommerce.png"
 import bgfrrame from "@/assets/image/bgfrrame.png"
-import { fintech } from "@/assets/image"
+import { ecommerceDevelopmentImage, fintech, mobileDevelopmentImage, uiuxDevelopmentImage, webDevelopmentImage } from "@/assets/image"
 
 import recent1 from "@/assets/image/recent1.gif"
 import recent2 from "@/assets/image/recent2.png"
@@ -160,6 +160,13 @@ import v3 from "@/assets/image/v3.png"
 import v4 from "@/assets/image/v4.png"
 import v5 from "@/assets/image/v5.png"
 import v6 from "@/assets/image/v6.png"
+
+
+import salenium from "@/assets/image/salenium.png"
+import maven from "@/assets/image/maven.png"
+import gradle from "@/assets/image/gradle.png"
+import circlecl from "@/assets/image/circlecl.png"
+
 
 const CompanyPartnerss = [
     {
@@ -304,55 +311,55 @@ const FilterData = [
         id: 1,
         heading: "Mobile",
         subtitle: [
-            {id: 1,img: card1,title: "Flutter"},
-            {id: 2,img: card2,title: "Flutter"},
-            {id: 3,img: card3,title: "Flutter"},
-            {id: 4,img: card4,title: "Flutter"},
-            {id: 5,img: card5,title: "Android"},
-            {id: 6,img: card6,title: "IOS"},
-         ]
+            { id: 1, img: card1, title: "Flutter" },
+            { id: 2, img: card2, title: "Flutter" },
+            { id: 3, img: card3, title: "Flutter" },
+            { id: 4, img: card4, title: "Flutter" },
+            { id: 5, img: card5, title: "Android" },
+            { id: 6, img: card6, title: "IOS" },
+        ]
     },
     {
         id: 2,
         heading: "Frontend",
         subtitle: [
-            {id: 1,img: card1,title: "Node.JS"},
-            {id: 2,img: card2,title: "Angular"},
-            {id: 3,img: card3,title: "Python.JS"},
-            {id: 4,img: card4,title: "Java"},
-            {id: 5,img: card5,title: "PHP"},
-              ]
+            { id: 1, img: card1, title: "Node.JS" },
+            { id: 2, img: card2, title: "Angular" },
+            { id: 3, img: card3, title: "Python.JS" },
+            { id: 4, img: card4, title: "Java" },
+            { id: 5, img: card5, title: "PHP" },
+        ]
     },
     {
         id: 3,
         heading: "Bakend",
         subtitle: [
-            {id: 1,img: card1,title: "React.JS"},
-            {id: 2,img: card2,title: "Angular"},
-            {id: 3,img: card3,title: "Vue.JS"},
-            {id: 4,img: card4,title: "Shopify"},
-            {id: 5,img: card5,title: "Shopify"},
-            {id: 6,img: card6,title: "Vue.JS"},
+            { id: 1, img: card1, title: "React.JS" },
+            { id: 2, img: card2, title: "Angular" },
+            { id: 3, img: card3, title: "Vue.JS" },
+            { id: 4, img: card4, title: "Shopify" },
+            { id: 5, img: card5, title: "Shopify" },
+            { id: 6, img: card6, title: "Vue.JS" },
         ]
     },
     {
         id: 4,
         heading: "CMS",
         subtitle: [
-            {id: 1,img: card1,title: "CMS"},
-            {id: 2,img: card2,title: "CMS"},
-            {id: 3,img: card3,title: "CMS"},
+            { id: 1, img: card1, title: "CMS" },
+            { id: 2, img: card2, title: "CMS" },
+            { id: 3, img: card3, title: "CMS" },
         ]
     },
     {
         id: 5,
         heading: "DataBase",
         subtitle: [
-            {id: 1,img: card1,title: "My SQL"},
-            {id: 2,img: card2,title: "SQL"},
-            {id: 3,img: card3,title: "Mongo DB"},
-            {id: 4,img: card4,title: "PostgreSQL"},
-            {id: 5,img: card5,title: "Cassandra"},
+            { id: 1, img: card1, title: "My SQL" },
+            { id: 2, img: card2, title: "SQL" },
+            { id: 3, img: card3, title: "Mongo DB" },
+            { id: 4, img: card4, title: "PostgreSQL" },
+            { id: 5, img: card5, title: "Cassandra" },
         ]
     },
 
@@ -360,8 +367,8 @@ const FilterData = [
         id: 6,
         heading: "Infa & Devops",
         subtitle: [
-            {id: 1,img: card1,title: "Infa & Devops"},
-            {id: 2,img: card2,title: "Infa & Devops"},
+            { id: 1, img: card1, title: "Infa & Devops" },
+            { id: 2, img: card2, title: "Infa & Devops" },
         ]
     },
 ]
@@ -490,7 +497,7 @@ const clientSay = [
         description: "Our eCommerce app development team aims to create scalable, robust and secure eCommerce platforms offering brand recognition, seamless visitor engagement and increased conversion rate.",
         clientName: "Sherri Cronin",
         profession: "Dynamic Program Designer",
-        video:ThePour
+        video: ThePour
 
     },
     {
@@ -611,35 +618,35 @@ const feature = [
 
 const businessWork = [
     {
-        id:1,
-        heading:"01.",
-        subHeading:"Startup Business",
-        detail:[
-            {id:1, title:"Startup Business", subtitle:"Keeping the cost, features, and timeline constraints in mind, AppClues offers mobile app development services to transform our startup client’s ideas into reality.", img: startup}
+        id: 1,
+        heading: "01.",
+        subHeading: "Startup Business",
+        detail: [
+            { id: 1, title: "Startup Business", subtitle: "Keeping the cost, features, and timeline constraints in mind, AppClues offers mobile app development services to transform our startup client’s ideas into reality.", img: startup }
         ]
     },
     {
-        id:2,
-        heading:"02.",
-        subHeading:"Small & Medium Business ",
-        detail:[
-            {id:1, title:"Small & Medium Business", subtitle:"Keeping the cost, features, and timeline constraints in mind, AppClues offers mobile app development services to transform our startup client’s ideas into reality.", img: small}
+        id: 2,
+        heading: "02.",
+        subHeading: "Small & Medium Business ",
+        detail: [
+            { id: 1, title: "Small & Medium Business", subtitle: "Keeping the cost, features, and timeline constraints in mind, AppClues offers mobile app development services to transform our startup client’s ideas into reality.", img: small }
         ]
     },
     {
-        id:3,
-        heading:"03.",
-        subHeading:"Agencies",
-        detail:[
-            {id:1, title:"Agencies", subtitle:"Keeping the cost, features, and timeline constraints in mind, AppClues offers mobile app development services to transform our startup client’s ideas into reality.", img: agency}
+        id: 3,
+        heading: "03.",
+        subHeading: "Agencies",
+        detail: [
+            { id: 1, title: "Agencies", subtitle: "Keeping the cost, features, and timeline constraints in mind, AppClues offers mobile app development services to transform our startup client’s ideas into reality.", img: agency }
         ]
     },
     {
-        id:4,
-        heading:"04.",
-        subHeading:"Enterprise",
-        detail:[
-            {id:1, title:"Enterprise", subtitle:"Keeping the cost, features, and timeline constraints in mind, AppClues offers mobile app development services to transform our startup client’s ideas into reality.", img: enterprise}
+        id: 4,
+        heading: "04.",
+        subHeading: "Enterprise",
+        detail: [
+            { id: 1, title: "Enterprise", subtitle: "Keeping the cost, features, and timeline constraints in mind, AppClues offers mobile app development services to transform our startup client’s ideas into reality.", img: enterprise }
         ]
     }
 ]
@@ -786,161 +793,161 @@ const lastFooter = [
 
 ]
 
-const bussinessdetail=[
+const bussinessdetail = [
     {
-        id:1,
+        id: 1,
         img: skype,
-        title:"Skype ID:",
-        description:"ThinkNovus.com"
+        title: "Skype ID:",
+        description: "ThinkNovus.com"
     },
     {
-        id:2,
+        id: 2,
         img: gmail,
-        title:"Email Us:",
-        description:"tn@gmail.com"
+        title: "Email Us:",
+        description: "tn@gmail.com"
     },
     {
-        id:3,
+        id: 3,
         img: whatsapp,
-        title:"Phone No:",
-        description:"+91 25842 96523"
+        title: "Phone No:",
+        description: "+91 25842 96523"
     },
     {
-        id:4,
+        id: 4,
         img: phone,
-        title:"Phone No:",
-        description:"+91 95847 85421"
+        title: "Phone No:",
+        description: "+91 95847 85421"
     },
 
 ]
 
 
-const businessService=[
+const businessService = [
     {
-        id:1,
-        title:"Hire Developer(s)"
+        id: 1,
+        title: "Hire Developer(s)"
     },
     {
-        id:2,
-        title:"Web Development"
+        id: 2,
+        title: "Web Development"
     },
     {
-        id:3,
-        title:"Mobile App Development"
+        id: 3,
+        title: "Mobile App Development"
     },
     {
-        id:4,
-        title:"UI/UX Design"
+        id: 4,
+        title: "UI/UX Design"
     },
     {
-        id:5,
-        title:"Maintenance & Support"
+        id: 5,
+        title: "Maintenance & Support"
     },
     {
-        id:6,
-        title:"Custom Software Development"
+        id: 6,
+        title: "Custom Software Development"
     },
     {
-        id:7,
-        title:"QA Service"
+        id: 7,
+        title: "QA Service"
     },
     {
-        id:8,
-        title:"Digital Marketing"
+        id: 8,
+        title: "Digital Marketing"
     },
     {
-        id:9,
-        title:"Other Service"
+        id: 9,
+        title: "Other Service"
     }
 ]
 
-const partnershipModel=[
+const partnershipModel = [
     {
-        id:1,
-        heading:"Full Time",
-        innHeading:"Hiring",
-        detail:[
-            {id:1, title:"Hours/day", subtitle:"8 Hours", inntitle:""},
-            {id:2, title:"Methodology", subtitle:"Agile", inntitle:""},
-            {id:3, title:"Communication", subtitle:"Phone, Chat,",inntitle:"E-mail"},
-            {id:4, title:"Project Trackers", subtitle:"Daily Reports," ,inntitle:"Basecamp, Redmine etc."}
-        ]       
+        id: 1,
+        heading: "Full Time",
+        innHeading: "Hiring",
+        detail: [
+            { id: 1, title: "Hours/day", subtitle: "8 Hours", inntitle: "" },
+            { id: 2, title: "Methodology", subtitle: "Agile", inntitle: "" },
+            { id: 3, title: "Communication", subtitle: "Phone, Chat,", inntitle: "E-mail" },
+            { id: 4, title: "Project Trackers", subtitle: "Daily Reports,", inntitle: "Basecamp, Redmine etc." }
+        ]
     },
     {
-        id:2,
-        heading:"Part Time",
-        innHeading:"Hiring",
-        detail:[
-            {id:1, title:"Hours/day", subtitle:"4 Hours", inntitle:""},
-            {id:2, title:"Methodology", subtitle:"Agile", inntitle:""},
-            {id:3, title:"Communication", subtitle:"Phone, Chat,", inntitle:"E-mail"},
-            {id:4, title:"Project Trackers", subtitle:"Daily Reports,", inntitle:"Basecamp, Redmine etc."}
-        ]       
+        id: 2,
+        heading: "Part Time",
+        innHeading: "Hiring",
+        detail: [
+            { id: 1, title: "Hours/day", subtitle: "4 Hours", inntitle: "" },
+            { id: 2, title: "Methodology", subtitle: "Agile", inntitle: "" },
+            { id: 3, title: "Communication", subtitle: "Phone, Chat,", inntitle: "E-mail" },
+            { id: 4, title: "Project Trackers", subtitle: "Daily Reports,", inntitle: "Basecamp, Redmine etc." }
+        ]
     },
     {
-        id:3,
-        heading:"Hourly Time ",
-        innHeading:"Hiring",
-        detail:[
-            {id:1, title:"Hours/day", subtitle:"Flexible", inntitle:""},
-            {id:2, title:"Methodology", subtitle:"Agile", inntitle:""},
-            {id:3, title:"Communication", subtitle:"Phone, Chat,",inntitle:"E-mail"},
-            {id:4, title:"Project Trackers", subtitle:"Daily Reports," ,inntitle:"Basecamp, Redmine etc."}
-        ]       
+        id: 3,
+        heading: "Hourly Time ",
+        innHeading: "Hiring",
+        detail: [
+            { id: 1, title: "Hours/day", subtitle: "Flexible", inntitle: "" },
+            { id: 2, title: "Methodology", subtitle: "Agile", inntitle: "" },
+            { id: 3, title: "Communication", subtitle: "Phone, Chat,", inntitle: "E-mail" },
+            { id: 4, title: "Project Trackers", subtitle: "Daily Reports,", inntitle: "Basecamp, Redmine etc." }
+        ]
     }
 ]
 
-const benefit=[
+const benefit = [
     {
-        id:1,
-        title:"No Charges for Project Manager"
+        id: 1,
+        title: "No Charges for Project Manager"
     },
     {
-        id:2,
-        title:"Daily Reporting & Code Push"
+        id: 2,
+        title: "Daily Reporting & Code Push"
     },
     {
-        id:3,
-        title:"Version Control Implementation"
+        id: 3,
+        title: "Version Control Implementation"
     },
     {
-        id:4,
-        title:"Direct Communication"
+        id: 4,
+        title: "Direct Communication"
     },
     {
-        id:5,
-        title:"Project Management Tools"
+        id: 5,
+        title: "Project Management Tools"
     },
     {
-        id:6,
-        title:"SCRUM Based Execution"
+        id: 6,
+        title: "SCRUM Based Execution"
     },
 ]
 
-const developer=[
+const developer = [
     {
-        id:1,
-        heading:"Hire Mobile App Developers",
-        detail:[
-            {img:dedicated1, title:"Hire React Native", subtitle:"Developers"},
-            {img:dedicated2, title:"Hire Flutter", subtitle:"Developers"}
+        id: 1,
+        heading: "Hire Mobile App Developers",
+        detail: [
+            { img: dedicated1, title: "Hire React Native", subtitle: "Developers" },
+            { img: dedicated2, title: "Hire Flutter", subtitle: "Developers" }
         ]
     },
     {
-        id:2,
-        heading:"Hire Mobile App Developers",
-        detail:[
-            {img:dedicated3, title:"Hire AngularJS", subtitle:"Developers"},
-            {img:dedicated1, title:"Hire ReactJS", subtitle:"Developers"}
+        id: 2,
+        heading: "Hire Mobile App Developers",
+        detail: [
+            { img: dedicated3, title: "Hire AngularJS", subtitle: "Developers" },
+            { img: dedicated1, title: "Hire ReactJS", subtitle: "Developers" }
         ]
     },
     {
-        id:3,
-        heading:"Hire Mobile App Developers",
-        detail:[
-            {img:dedicated4, title:"Hire Python", subtitle:"Developers"},
-            {img:dedicated5, title:"Hire ROR", subtitle:"Developers"},
-            {img:dedicated6, title:"Hire Node.js", subtitle:"Developers"}
+        id: 3,
+        heading: "Hire Mobile App Developers",
+        detail: [
+            { img: dedicated4, title: "Hire Python", subtitle: "Developers" },
+            { img: dedicated5, title: "Hire ROR", subtitle: "Developers" },
+            { img: dedicated6, title: "Hire Node.js", subtitle: "Developers" }
         ]
     },
 ]
@@ -948,336 +955,398 @@ const developer=[
 
 //services page  data
 
-const toolsTechHeading=[
+const toolsTechHeading = [
     {
-        id:1,
-        heading:"Tools & Technologies We Use For",
-        innHeading:"Web Development",
-        subtitle:"Here's the list of mobile app development tools and technologies that enables us to convert mobile app ideas into real projects creatively. "
+        id: 1,
+        heading: "Tools & Technologies We Use For",
+        innHeading: "Web Development",
+        subtitle: "Here's the list of mobile app development tools and technologies that enables us to convert mobile app ideas into real projects creatively. "
     }
 ]
 
-const webToolsAndTechnology =[
+const webToolsAndTechnology = [
     {
-        id:1,
-        title:"Font-end technologies",
-        detail:[{subtitle:"JavaScript"},{subtitle:"TypeScript"},{subtitle:"Angular"},{subtitle:"React.js"},{subtitle:"vue.js"},{subtitle:"Backbone.js"},{subtitle:"Ember.js"},{subtitle:"Bootstrap"},{subtitle:"HTML5"},{subtitle:"CSS3"}]
+        id: 1,
+        title: "Font-end technologies",
+        detail: [{ subtitle: "JavaScript" }, { subtitle: "TypeScript" }, { subtitle: "Angular" }, { subtitle: "React.js" }, { subtitle: "vue.js" }, { subtitle: "Backbone.js" }, { subtitle: "Ember.js" }, { subtitle: "Bootstrap" }, { subtitle: "HTML5" }, { subtitle: "CSS3" }]
     },
     {
-        id:2,
-        title:"Back-end technologies",
-        detail:[{subtitle:"Laravel"},{subtitle:"Node.js"},{subtitle:"Golang"},{subtitle:"Python"},{subtitle:"vue.js"},{subtitle:"Meteor.js"},{subtitle:"Express.js"},{subtitle:"PHP"}]
+        id: 2,
+        title: "Back-end technologies",
+        detail: [{ subtitle: "Laravel" }, { subtitle: "Node.js" }, { subtitle: "Golang" }, { subtitle: "Python" }, { subtitle: "vue.js" }, { subtitle: "Meteor.js" }, { subtitle: "Express.js" }, { subtitle: "PHP" }]
     },
     {
-        id:3,
-        title:"Database",
-        detail:[{subtitle:"Firebase"},{subtitle:"Redis"},{subtitle:"PostgreSQL"},{subtitle:"MongoDB"},{subtitle:"MySQL"},{subtitle:"DynamoDB"},{subtitle:"Oracle"},{subtitle:"SQLite"}]
+        id: 3,
+        title: "Database",
+        detail: [{ subtitle: "Firebase" }, { subtitle: "Redis" }, { subtitle: "PostgreSQL" }, { subtitle: "MongoDB" }, { subtitle: "MySQL" }, { subtitle: "DynamoDB" }, { subtitle: "Oracle" }, { subtitle: "SQLite" }]
     },
     {
-        id:4,
-        title:"Design Tools",
-        detail:[{subtitle:"Illustrator"},{subtitle:"Adobe XD"},{subtitle:"Photoshop"},{subtitle:"After Effects"},{subtitle:"Sketch"},{subtitle:"Figma"},{subtitle:"InVision"},{subtitle:"Zeplin"},{subtitle:"HTML5"},{subtitle:"CSS3"}]
+        id: 4,
+        title: "Design Tools",
+        detail: [{ subtitle: "Illustrator" }, { subtitle: "Adobe XD" }, { subtitle: "Photoshop" }, { subtitle: "After Effects" }, { subtitle: "Sketch" }, { subtitle: "Figma" }, { subtitle: "InVision" }, { subtitle: "Zeplin" }, { subtitle: "HTML5" }, { subtitle: "CSS3" }]
     }
 ]
 
-const askQuestionHeading=[
+const askQuestionHeading = [
     {
-        id:1,
-        heading:"Frequently Asked ",
-        innHeading:"Questions",
-        subtitle:"Here, we've compiled a list of FAQs about our Web development services that you might have and many of our clients have asked us: "
+        id: 1,
+        heading: "Frequently Asked ",
+        innHeading: "Questions",
+        subtitle: "Here, we've compiled a list of FAQs about our Web development services that you might have and many of our clients have asked us: "
     }
 ]
 
-const askQuestion =[
+const askQuestion = [
     {
-        id:1,
-        question:"What Does a Web Development Company Do?",
-        Ans:"A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
+        id: 1,
+        question: "What Does a Web Development Company Do?",
+        Ans: "A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
     },
     {
-        id:2,
-        question:"How Long Does It Take To Build a Website?",
-        Ans:"A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
+        id: 2,
+        question: "How Long Does It Take To Build a Website?",
+        Ans: "A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
     },
     {
-        id:3,
-        question:"What Are the Benefits of Working With a Web Development Company?",
-        Ans:"A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
+        id: 3,
+        question: "What Are the Benefits of Working With a Web Development Company?",
+        Ans: "A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
     },
     {
-        id:4,
-        question:"How to Prepare Before Partnering With a Web Development Company?",
-        Ans:"A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
+        id: 4,
+        question: "How to Prepare Before Partnering With a Web Development Company?",
+        Ans: "A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
     },
     {
-        id:5,
-        question:"How Long Does a Web Development Project Take To Complete From Start to Finish?",
-        Ans:"A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
+        id: 5,
+        question: "How Long Does a Web Development Project Take To Complete From Start to Finish?",
+        Ans: "A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
     },
     {
-        id:6,
-        question:"Can You Help Me Complete My Incomplete Web/App Development Project?",
-        Ans:"A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
+        id: 6,
+        question: "Can You Help Me Complete My Incomplete Web/App Development Project?",
+        Ans: "A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
     },
     {
-        id:7,
-        question:"We Already Have Designs Ready, Can You Work With Those?",
-        Ans:"A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
+        id: 7,
+        question: "We Already Have Designs Ready, Can You Work With Those?",
+        Ans: "A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
     },
     {
-        id:8,
-        question:"How Do Content Management Systems (CMS) Fit Into Web Development?",
-        Ans:"A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
+        id: 8,
+        question: "How Do Content Management Systems (CMS) Fit Into Web Development?",
+        Ans: "A web development company like ThinkNovus specializes in creating and maintaining websites for businesses and organizations. They offer a wide range of services including website design, front-end and back-end development, e-commerce solutions, content management systems, and website maintenance."
     }
 ]
 
-const lookingWebCom=[
+const lookingWebCom = [
     {
-        id:1,
-        title:"Looking for a Web Development Company?",
-        subtitle:"Still thinking about whether to start your software project or need some guidance? Don't worry! Just schedule a call with us, and our executives will help you define the best-fit solution to meet your requirements.",
-        btn:"Schedule A Call"
+        id: 1,
+        title: "Looking for a Web Development Company?",
+        subtitle: "Still thinking about whether to start your software project or need some guidance? Don't worry! Just schedule a call with us, and our executives will help you define the best-fit solution to meet your requirements.",
+        btn: "Schedule A Call"
     }
 ]
 
-const webdevServicesHeading=[
+const webdevServicesHeading = [
     {
-        id:1,
-        heading:"Our Web Development ",
-        innHeading:"Services",
-        subtitle:"ThinkNovus has successfully delivered 4K+ web development projects ranging from web-based apps, e-commerce portals, CMS, B2B & B2C applications, Intranet and Extranet Portals, and more. With our bespoke "
+        id: 1,
+        heading: "Our Web Development ",
+        innHeading: "Services",
+        subtitle: "ThinkNovus has successfully delivered 4K+ web development projects ranging from web-based apps, e-commerce portals, CMS, B2B & B2C applications, Intranet and Extranet Portals, and more. With our bespoke "
     }
 ]
 
-const webDevService=[
-{
-    id:1,
-    img:wds1,
-    title:"Backend Development",
-    detail:"We provide a solid back end to your website/app/software operations with our backend development services."
-},
-{
-    id:2,
-    img:wds2,
-    title:"Frontend Development",
-    detail:"Put a right digital face forward. With our frontend development services we ensure our UI/UX techniques fall right into the face."
-},
-{
-    id:3,
-    img:wds3,
-    title:"JavaScript Development",
-    detail:"Build a dynamic, responsive and feature-rich app that brings great impact for your organization with our JavaScript development services."
-},
-{
-    id:4,
-    img:wds4,
-    title:"Microsoft Development",
-    detail:"With our Microsoft expertise, we deliver modern adaptive web platforms and strong secure backend to build your business operations with ease."
-},
-{
-    id:5,
-    img:wds5,
-    title:"CMS Development",
-    detail:"Benefit from our CMS development services to gain a CMS that helps you intuitively update your site with flexibility."
-},
-{
-    id:6,
-    img:wds6,
-    title:"eCommerce Development",
-    detail:"We help you set the standard of eCommerce website in the market and boost the online presence with a lot of revenue."
-},
-]
-
-const devServices=[
+const webDevService = [
     {
-        id:1,
-        title:"Backend Development",
-        detail:"We provide a solid back end to your website/app/software operations with our backend development services."
+        id: 1,
+        img: wds1,
+        title: "Backend Development",
+        detail: "We provide a solid back end to your website/app/software operations with our backend development services."
     },
     {
-        id:2,
-        title:"Frontend Development",
-        detail:"Put a right digital face forward. With our frontend development services we ensure our UI/UX techniques fall right into the face."
+        id: 2,
+        img: wds2,
+        title: "Frontend Development",
+        detail: "Put a right digital face forward. With our frontend development services we ensure our UI/UX techniques fall right into the face."
     },
     {
-        id:3,
-        title:"JavaScript Development",
-        detail:"Build a dynamic, responsive and feature-rich app that brings great impact for your organization with our JavaScript development services."
+        id: 3,
+        img: wds3,
+        title: "JavaScript Development",
+        detail: "Build a dynamic, responsive and feature-rich app that brings great impact for your organization with our JavaScript development services."
     },
     {
-        id:4,
-        title:"Microsoft Development",
-        detail:"With our Microsoft expertise, we deliver modern adaptive web platforms and strong secure backend to build your business operations with ease."
+        id: 4,
+        img: wds4,
+        title: "Microsoft Development",
+        detail: "With our Microsoft expertise, we deliver modern adaptive web platforms and strong secure backend to build your business operations with ease."
     },
     {
-        id:5,
-        title:"CMS Development",
-        detail:"Benefit from our CMS development services to gain a CMS that helps you intuitively update your site with flexibility."
+        id: 5,
+        img: wds5,
+        title: "CMS Development",
+        detail: "Benefit from our CMS development services to gain a CMS that helps you intuitively update your site with flexibility."
     },
     {
-        id:6,
-        title:"eCommerce Development",
-        detail:"We help you set the standard of eCommerce website in the market and boost the online presence with a lot of revenue."
+        id: 6,
+        img: wds6,
+        title: "eCommerce Development",
+        detail: "We help you set the standard of eCommerce website in the market and boost the online presence with a lot of revenue."
     },
 ]
 
-const webResult=[
+const devServices = [
     {
-        id:1,
-        title:"Web Development Company",
-        subtitle:"That Deliver Websites Built For Results",
-        para1:"Your website is your brand. It is an asset built for executing brave business and marketing strategies. A platform where users get to virtually experience your brand values. It is therefore must to choose a website development service provider who you can rely upon for implementing every aspect with great excellence.",
-        para2:"We are a team of web developers that live these three fundamentals to core – user experience, scalability and security for website development. Our end-to-end web development services help you improve the online presence, add any new feature, boost revenue, and make the web design appealing. Let’s digitize the business and disrupt the market."
+        id: 1,
+        title: "Backend Development",
+        detail: "We provide a solid back end to your website/app/software operations with our backend development services."
+    },
+    {
+        id: 2,
+        title: "Frontend Development",
+        detail: "Put a right digital face forward. With our frontend development services we ensure our UI/UX techniques fall right into the face."
+    },
+    {
+        id: 3,
+        title: "JavaScript Development",
+        detail: "Build a dynamic, responsive and feature-rich app that brings great impact for your organization with our JavaScript development services."
+    },
+    {
+        id: 4,
+        title: "Microsoft Development",
+        detail: "With our Microsoft expertise, we deliver modern adaptive web platforms and strong secure backend to build your business operations with ease."
+    },
+    {
+        id: 5,
+        title: "CMS Development",
+        detail: "Benefit from our CMS development services to gain a CMS that helps you intuitively update your site with flexibility."
+    },
+    {
+        id: 6,
+        title: "eCommerce Development",
+        detail: "We help you set the standard of eCommerce website in the market and boost the online presence with a lot of revenue."
+    },
+]
+
+const webResult = [
+    {
+        id: 1,
+        title: "Web Development Company",
+        subtitle: "That Deliver Websites Built For Results",
+        para1: "Your website is your brand. It is an asset built for executing brave business and marketing strategies. A platform where users get to virtually experience your brand values. It is therefore must to choose a website development service provider who you can rely upon for implementing every aspect with great excellence.",
+        para2: "We are a team of web developers that live these three fundamentals to core – user experience, scalability and security for website development. Our end-to-end web development services help you improve the online presence, add any new feature, boost revenue, and make the web design appealing. Let’s digitize the business and disrupt the market."
     }
 ]
 
-const webEngagementModelHeading=[
+const webEngagementModelHeading = [
     {
-        id:1,
-        heading:"Our Engagement Models  ",
-        innHeading:"for Web Development",
-        subtitle:"Our team of software development experts collaborates with clients to understand their roadblocks and objectives, enabling us to develop custom software development solutions that are efficient and scalable for diverse industries. "
+        id: 1,
+        heading: "Our Engagement Models  ",
+        innHeading: "for Web Development",
+        subtitle: "Our team of software development experts collaborates with clients to understand their roadblocks and objectives, enabling us to develop custom software development solutions that are efficient and scalable for diverse industries. "
     }
 ]
 
-const webEngagementModel=[
-{
-    id:1,
-    img1: Engage1,
-    title:"Build - Operate - Transfer",
-    detail:[{img2:check, work:"Long term collabration"},{img2:check, work:"Highly scalable team "},{img2:check, work:"Team ownership"},{img2:check, work:"Dedicated working centre"}]  
-},
-{
-    id:2,
-    img1: Engage2,
-    title:"Time & Material",
-    detail:[{img2:check, work:"Short-medium team collaboration"},{img2:check, work:"Low scalable team"},{img2:check, work:"Clean deadlines"},{img2:check, work:"Detailed specifications"}]  
-},
-{
-    id:3,
-    img1: Engage3,
-    title:"Fixed cost",
-    detail:[{img2:check, work:"Short-medium team collaboration"},{img2:check, work:"Flexible budget and timeframe "},{img2:check, work:"Complete control over the process"},{img2:check, work:"Highly scalable team"}]  
-}
-]
-
-const webSolutionHeading=[
+const webEngagementModel = [
     {
-        id:1,
-        heading:"Web Development Solutions for ",
-        innHeading:"Diverse Industries",
-        subtitle:"Our team of software development experts collaborates with clients to understand their roadblocks and objectives, enabling us to develop custom software development solutions that are efficient and scalable for diverse industries. "
+        id: 1,
+        img1: Engage1,
+        title: "Build - Operate - Transfer",
+        detail: [{ img2: check, work: "Long term collabration" }, { img2: check, work: "Highly scalable team " }, { img2: check, work: "Team ownership" }, { img2: check, work: "Dedicated working centre" }]
+    },
+    {
+        id: 2,
+        img1: Engage2,
+        title: "Time & Material",
+        detail: [{ img2: check, work: "Short-medium team collaboration" }, { img2: check, work: "Low scalable team" }, { img2: check, work: "Clean deadlines" }, { img2: check, work: "Detailed specifications" }]
+    },
+    {
+        id: 3,
+        img1: Engage3,
+        title: "Fixed cost",
+        detail: [{ img2: check, work: "Short-medium team collaboration" }, { img2: check, work: "Flexible budget and timeframe " }, { img2: check, work: "Complete control over the process" }, { img2: check, work: "Highly scalable team" }]
     }
 ]
 
-const webSolution=[
+const webSolutionHeading = [
     {
-        id:1,
-        heading:"Utilities & On Demand",
-        subHeading:"On-demand solutions to make  your life easier and more efficient.",
-        title:[{img1:check, detail:"Food Delivery Web"},{img1:check, detail:"Virtual Classroom Learning"},{img1:check, detail:"Ticket Booking & Bill Payment"},{img1:check, detail:"OTT streaming Website"}],
-        img2:arrowright
+        id: 1,
+        heading: "Web Development Solutions for ",
+        innHeading: "Diverse Industries",
+        subtitle: "Our team of software development experts collaborates with clients to understand their roadblocks and objectives, enabling us to develop custom software development solutions that are efficient and scalable for diverse industries. "
+    }
+]
+
+const webSolution = [
+    {
+        id: 1,
+        heading: "Utilities & On Demand",
+        subHeading: "On-demand solutions to make  your life easier and more efficient.",
+        title: [{ img1: check, detail: "Food Delivery Web" }, { img1: check, detail: "Virtual Classroom Learning" }, { img1: check, detail: "Ticket Booking & Bill Payment" }, { img1: check, detail: "OTT streaming Website" }],
+        img2: arrowright
     },
     {
-        id:2,
-        heading:"Real Estate & Construction",
-        subHeading:"On-demand solutions to make your life easier and more efficient.",
-        title:[{img1:check, detail:"Property Marketplace"},{img1:check, detail:"Property Auction Portal"},{img1:check, detail:"ERP"},{img1:check, detail:"Property Valuation Tool"},{img1:check, detail:"AR/VR Property Tool"}],
-        img2:arrowright
+        id: 2,
+        heading: "Real Estate & Construction",
+        subHeading: "On-demand solutions to make your life easier and more efficient.",
+        title: [{ img1: check, detail: "Property Marketplace" }, { img1: check, detail: "Property Auction Portal" }, { img1: check, detail: "ERP" }, { img1: check, detail: "Property Valuation Tool" }, { img1: check, detail: "AR/VR Property Tool" }],
+        img2: arrowright
     },
     {
-        id:3,
-        heading:"Logistics & Distribution",
-        subHeading:"Optimizing supply chain operations  with mobile solutions.",
-       
-        title:[{img1:check, detail:"Transport Management Solution"},{img1:check, detail:"Supply Chain Management"},{img1:check, detail:"Fleet Management"},{img1:check, detail:"Warehouse Management"},{img1:check, detail:"Courier Delivery"}],
-        img2:arrowright
+        id: 3,
+        heading: "Logistics & Distribution",
+        subHeading: "Optimizing supply chain operations  with mobile solutions.",
+
+        title: [{ img1: check, detail: "Transport Management Solution" }, { img1: check, detail: "Supply Chain Management" }, { img1: check, detail: "Fleet Management" }, { img1: check, detail: "Warehouse Management" }, { img1: check, detail: "Courier Delivery" }],
+        img2: arrowright
     },
     {
-        id:4,
-        heading:"Utilities & On Demand",
-        subHeading:"On-demand solutions to make  your life easier and more efficient.",
-        title:[{img1:check, detail:"Food Delivery Web"},{img1:check, detail:"Virtual Classroom Learning"},{img1:check, detail:"Ticket Booking & Bill Payment"},{img1:check, detail:"OTT streaming Website"}],
-        img2:arrowright
+        id: 4,
+        heading: "Utilities & On Demand",
+        subHeading: "On-demand solutions to make  your life easier and more efficient.",
+        title: [{ img1: check, detail: "Food Delivery Web" }, { img1: check, detail: "Virtual Classroom Learning" }, { img1: check, detail: "Ticket Booking & Bill Payment" }, { img1: check, detail: "OTT streaming Website" }],
+        img2: arrowright
     },
     {
-        id:5,
-        heading:"Real Estate & Construction",
-        subHeading:"On-demand solutions to make your life easier and more efficient.",
-        title:[{img1:check, detail:"Property Marketplace"},{img1:check, detail:"Property Auction Portal"},{img1:check, detail:"ERP"},{img1:check, detail:"Property Valuation Tool"},{img1:check, detail:"AR/VR Property Tool"}],
-        img2:arrowright
+        id: 5,
+        heading: "Real Estate & Construction",
+        subHeading: "On-demand solutions to make your life easier and more efficient.",
+        title: [{ img1: check, detail: "Property Marketplace" }, { img1: check, detail: "Property Auction Portal" }, { img1: check, detail: "ERP" }, { img1: check, detail: "Property Valuation Tool" }, { img1: check, detail: "AR/VR Property Tool" }],
+        img2: arrowright
     },
     {
-        id:6,
-        heading:"Logistics & Distribution",
-        subHeading:"Optimizing supply chain operations  with mobile solutions.",
-       
-        title:[{img1:check, detail:"Transport Management Solution"},{img1:check, detail:"Supply Chain Management"},{img1:check, detail:"Fleet Management"},{img1:check, detail:"Warehouse Management"},{img1:check, detail:"Courier Delivery"}],
-        img2:arrowright
+        id: 6,
+        heading: "Logistics & Distribution",
+        subHeading: "Optimizing supply chain operations  with mobile solutions.",
+
+        title: [{ img1: check, detail: "Transport Management Solution" }, { img1: check, detail: "Supply Chain Management" }, { img1: check, detail: "Fleet Management" }, { img1: check, detail: "Warehouse Management" }, { img1: check, detail: "Courier Delivery" }],
+        img2: arrowright
     },
 ]
 
-const whyCooseUS=[
+const whyChooseUS = [
     {
-        id:1,
+        id: 1,
         img: v1,
-        title:"30+",
-        subtitle:"Domains Served"
+        title: "30+",
+        subtitle: "Domains Served"
     },
     {
-        id:2,
+        id: 2,
         img: v2,
-        title:"2K",
-        subtitle:"Web Project"
+        title: "2K",
+        subtitle: "Web Project"
     },
     {
-        id:3,
+        id: 3,
         img: v3,
-        title:"90%",
-        subtitle:"On-Time Delivery"
+        title: "90%",
+        subtitle: "On-Time Delivery"
     },
     {
-        id:4,
+        id: 4,
         img: v4,
-        title:"200",
-        subtitle:"Web Experts"
+        title: "200",
+        subtitle: "Web Experts"
     },
     {
-        id:5,
+        id: 5,
         img: v5,
-        title:"120+",
-        subtitle:"Web project"
+        title: "120+",
+        subtitle: "Web project"
     },
     {
-        id:6,
+        id: 6,
         img: v6,
-        title:"165K+",
-        subtitle:"Man-hours of work"
+        title: "165K+",
+        subtitle: "Man-hours of work"
+    }
+]
+const whyChooseUsHeadingWeb = [
+
+    {
+        id: 1,
+        heading: "Why Choose Us  ",
+        innHeading: "for Web Development Services?",
+        subtitle: "When you partner with ThinkNovus, you get access to an experienced Web development team that is committed to delivering innovative and impactful mobile app solutions adhering to industry best practices. "
+    }
+
+]
+
+const choosePhoto = [
+    {
+        id: 1,
+        img: dribbble,
+        title: "Dribbble"
+    },
+    {
+        id: 2,
+        img: behance,
+        title: "Behance"
+    },
+    {
+        id: 3,
+        img: clutch,
+        title: "Clutch"
+    },
+    {
+        id: 4,
+        img: pinterest,
+        title: "Pinterest"
+    },
+]
+
+const otherServiceHeading = [
+    {
+        id: 1,
+        heading: "Looking for Other ",
+        innHeading: "Services?",
+        subtitle: "Explore our other related services to enhance the performance of your digital product. "
     }
 ]
 
-const choosePhoto=[
-{
-    id:1,
-    img:dribbble,
-    title:"Dribbble"
-},
-{
-    id:2,
-    img:behance,
-    title:"Behance"
-},
-{
-    id:3,
-    img:clutch,
-    title:"Clutch"
-},
-{
-    id:4,
-    img:pinterest,
-    title:"Pinterest"
-},
+const otherService = [
+    {
+        id: 1,
+        img: mobileDevelopmentImage,
+        title: "Mobile App Development"
+    },
+    {
+        id: 2,
+        img: webDevelopmentImage,
+        title: "Web Development"
+    },
+    {
+        id: 3,
+        img: uiuxDevelopmentImage,
+        title: "UI/UX Design Service"
+    },
+    {
+        id: 4,
+        img: ecommerceDevelopmentImage,
+        title: "eCommerce & CMS Development"
+    }
+]
+
+const webExpertise = [
+    {
+        id: 1,
+        title: "Our Expertise in Web",
+        subtitle: "Development",
+        para1: "At ThinkNovus, we pride ourselves on being a top Web application development services company that consistently pushes the boundaries of technology. When you partner with Thinknovus Web development services.",
+        para2: "We've mastered our core technology skills through countless successful mobile app projects, making us adept at crafting custom Web app development solutions tailored to your unique business requirements.",
+        btn: "Get in touch"
+    }
+]
+
+const qaWeb = [
+    {
+        id: 1,
+        heading: "QA",
+        innHeading: "End-to-end testing and quality assurance to ensure reliable and glitch-free mobile app solutions for your business.",
+        detail: [{ img: salenium, title: "Selenium" },{img: maven, title:"Maven"}, {img: gradle, title:"Gradle"}, {img:circlecl, title:"Circle CI"}]
+    }
 ]
 
 export {
@@ -1319,9 +1388,13 @@ export {
     webSolution,
     webEngagementModelHeading,
     webEngagementModel,
-    whyCooseUS,
-    choosePhoto
-
+    whyChooseUS,
+    choosePhoto,
+    whyChooseUsHeadingWeb,
+    otherServiceHeading,
+    otherService,
+    webExpertise,
+    qaWeb
 }
 
 

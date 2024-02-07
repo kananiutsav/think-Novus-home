@@ -141,6 +141,16 @@ import v6 from "@/assets/image/v6.png"
 
 import chooseimage from "@/assets/image/chooseimage.png"
 
+import mobileDevelopmentImage from "@/assets/image/mobileDevelopmentImage.jpeg"
+import uiuxDevelopmentImage from "@/assets/image/uiuxDevelopmentImage.jpeg"
+import webDevelopmentImage from "@/assets/image/webDevelopmentImage.png"
+import ecommerceDevelopmentImage from "@/assets/image/ecommerceDevelopmentImage.png"
+
+import salenium from "@/assets/image/salenium.png"
+import maven from "@/assets/image/maven.png"
+import gradle from "@/assets/image/gradle.png"
+import circlecl from "@/assets/image/circlecl.png"
+
 export {
     companypartner,
     webdevelopment,
@@ -278,5 +288,13 @@ export {
     v4,
     v5,
     v6,
-    chooseimage
+    chooseimage,
+    mobileDevelopmentImage,
+    webDevelopmentImage,
+    ecommerceDevelopmentImage,
+    uiuxDevelopmentImage,
+    salenium,
+    maven,
+    gradle,
+    circlecl
 }

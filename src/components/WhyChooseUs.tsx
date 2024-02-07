@@ -1,89 +1,99 @@
 import React from 'react'
 import { chooseimage } from '@/assets/image'
-import { WhyCooseUSWeb, ChooseWebPhotos } from "@/interface";
+import { WhyChooseUSWeb, ChooseWebPhotos } from "@/interface";
+import Image from 'next/image';
+import Heading from '@/allHeading/Heading';
+import { whyChooseUsHeadingWeb } from '@/utils/Constant';
 type WhyCooseUSWebData = {
-    data: WhyCooseUSWeb[];
+    data: WhyChooseUSWeb[];
 };
 type ChooseWebPhotosData = {
-    item: ChooseWebPhotos[];
+    photo: ChooseWebPhotos[];
 };
 
-const WhyChooseUs:React.FC<WhyCooseUSWebData & ChooseWebPhotosData > = ({ data, item  }) => {
+const WhyChooseUs: React.FC<WhyCooseUSWebData & ChooseWebPhotosData> = ({ data, photo }) => {
     return (
-    <div>
-      
-    </div>
-  )
+
+        <>
+            <div className='my-[100px] max-w-[1200px] mx-auto'>
+                <Heading data={whyChooseUsHeadingWeb}/>
+                <div className='    text-white flex  max-w-[1200px] mx-auto gap-[20px] items-center '>
+                    <div className=''>
+                        <Image
+                            src={chooseimage}
+                            alt=''
+                            className='w-[434px] h-[489px]'
+                        />
+                    </div>
+                    <div className='flex justify-between  items-center gap-[20px]'>
+                        <div className='flex-1   items-center justify-center '>
+                            {data &&
+                                data.map((item) => (
+                                    item.id <= 3 && (
+                                        <div key={item.id} className="bg-[#1A1826] justify-center  text-white rounded-[14px] w-[364px] h-[151px]  cursor-pointer hover:bg-gradient-to-r from-purple-500 via-purple-700 to-blue-500  my-5  flex flex-col   ">
+                                        <div className='flex gap-[30px] pl-[36px] '>
+                                            <Image
+                                                src={item.img}
+                                                alt=''
+                                                className='w-[73px] h-[73px] mt-2'
+                                            />
+                                            <div>
+                                                <h1 className="text-[46px] leading-[66.24px] font-[600]   tracking-[-0.47px]">{item.title}</h1>
+                                                <p className="text-[20px] leading-[4.59px] font-[400] mt-[4px]">{item.subtitle}</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    )
+                                ))}
+                        </div>
+
+                        {/* Second column for items with id greater than 4 */}
+                        <div className='flex-1 '>
+                            {data &&
+                                data.map((item) => (
+                                    item.id > 3 && (
+                                        <div key={item.id} className="bg-[#1A1826] justify-center  text-white rounded-[14px] w-[364px] h-[151px]  cursor-pointer hover:bg-gradient-to-r from-purple-500 via-purple-700 to-blue-500  my-5  flex flex-col   ">
+                                            <div className='flex gap-[30px] pl-[36px] '>
+                                                <Image
+                                                    src={item.img}
+                                                    alt=''
+                                                    className='w-[73px] h-[73px] mt-2'
+                                                />
+                                                <div>
+                                                    <h1 className="text-[46px] leading-[66.24px] font-[600]   tracking-[-0.47px]">{item.title}</h1>
+                                                    <p className="text-[20px] leading-[4.59px] font-[400] mt-[4px]">{item.subtitle}</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    )
+                                ))}
+                        </div>
+                    </div>
+
+                </div>
+                <div className='flex  gap-x-[20px] pt-[60px] '>
+                    {photo && photo.map((picture)=>(
+                        <div key={picture.id} className='bg-[#1A1826] text-white w-[285px] py-[36px] px-[45px] h-[192px]  rounded-[14px] '>
+                         <div className=''>
+                         <Image
+                            src={picture.img}
+                            alt=''
+                            className='w-[80px] h-[80px]'
+                            />
+                            <p className='text-[30px] pt-[12px] font-[500] leading-[25.12px] tracking-[0.47px]'>{picture.title}</p>
+                         </div>
+                        </div>
+                    ))
+
+                    }
+                </div>
+            </div>
+        </>
+
+    )
 }
 
 export default WhyChooseUs
 
-
-// import Image from 'next/image';
-// import sideart from "../assets/image/sideart.png"
-
-// type ProcessData = {
-//     data: ProcessUsed[];
-// };
-
-// const Process = ({ data }: ProcessData) => {
-//     return (
-//         <>
-//             <div className='my-[100px]'>
-
-
-//                 <div className=' mx-auto justify-center '>
-//                     <h1 className='text-white py-[20px] text-[36px] font-[500] leading-[52px]  justify-center mx-auto text-center'>
-//                         Process We <span className=' custom-gradient'> Follow</span>
-//                     </h1>
-//                     {/* <h1 className='text-white py-[20px] text-[36px] font-[500] leading-[52px] mx-auto flex-row'>Industries <span className='custom-gradient'>We Serve</span></h1>   */}
-//                     <p className='text-white w-[793px] text-[20px] leading-[32px] font-[400] flex   text-center mx-auto h-[62px] '>
-//                         Collect your web snippets, Kindle highlights and important links – all in one place.Then quickly find them again from any device.
-
-//                     </p>
-//                 </div>
-//                 <div className='bg-[#1A1826]  pt-6 mt-9  text-white flex justify-between max-w-[1230px] mx-auto items-center h-[692px]'>
-//                     <div className='flex justify-between  items-center px-[36px]'>
-
-//                         <div className='flex-1 mx-4 items-center justify-center '>
-//                             {data &&
-//                                 data.map((item) => (
-//                                     item.id <= 4 && (
-//                                         <div key={item.id} className="bg-[#05020D]  text-white rounded-[8px]  cursor-pointer hover:bg-gradient-to-r from-purple-500 via-purple-700 to-blue-500 w-[287px] h-[125px] px-5 my-5  flex flex-col   ">
-//                                             <h1 className="text-[42px] leading-[81.6px] font-[700]  ">{item.num}</h1>
-//                                             <p className="text-[20px] leading-[32.755px] font-[600] ">{item.detail}</p>
-//                                         </div>
-//                                     )
-//                                 ))}
-//                         </div>
-
-//                         {/* Second column for items with id greater than 4 */}
-//                         <div className='flex-1 '>
-//                             {data &&
-//                                 data.map((item) => (
-//                                     item.id > 4 && (
-//                                         <div key={item.id} className="bg-[#05020D]  text-white rounded-[8px] w-[287px] h-[125px]  cursor-pointer hover:bg-gradient-to-r from-purple-500 via-purple-700 to-blue-500 px-5 my-5  flex flex-col   ">
-//                                             <h1 className="text-[42px] leading-[81.6px] font-[700]  ">{item.num}</h1>
-//                                             <p className="text-[20px] leading-[32.755px] font-[600] ">{item.detail}</p>
-//                                         </div>
-//                                     )
-//                                 ))}
-//                         </div>
-//                     </div>
-//                     <div className='px-[36px]'>
-//                         <Image
-//                             src={sideart}
-//                             alt=''
-//                             width={455}
-//                             height={420}
-//                         />
-
-
-//                     </div>
-//                 </div>
-//             </div>
-//         </>
-//     );
-// };
-
-// export default Process;

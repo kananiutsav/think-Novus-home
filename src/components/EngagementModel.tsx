@@ -16,7 +16,7 @@ const EngagementModel = ({ data }: WebEngagementModelsData) => {
                         <Heading data={webEngagementModelHeading} />
                     </div>
 
-                    <div className="text-white flex flex-wrap justify-between gap-y-[20px] pt-[50px] ">
+                    <div className="text-white flex flex-wrap justify-between gap-y-[20px] pt-[30px] ">
                         {
                             data && data.map((item) => (
                                 <div key={item.id} className="w-[387px] h-[427px] rounded-[14px] p-[20px] bg-[#1A1826] toolsborder ">

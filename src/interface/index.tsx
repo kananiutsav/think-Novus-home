@@ -1,3 +1,5 @@
+import { number } from "@/assets/image"
+
 export interface TButton {
   type?: 'button' | 'submit' | 'reset' | undefined
   label: string
@@ -142,11 +144,11 @@ export type Filters = {
   subtitle: { id: number, img: any, title: string }[]
 }
 
-export type BusinessWorks ={
+export type BusinessWorks = {
   id: number
   heading: string
   subHeading: string
-  detail: { id: number , img: any, title: string, subtitle: string}[]
+  detail: { id: number, img: any, title: string, subtitle: string }[]
 }
 
 export type BusinessDetails = {
@@ -166,106 +168,140 @@ export type PartnershipModels = {
   id: number
   heading: string
   innHeading: string
-  detail: {id: number, title: string, subtitle: string, inntitle: string}[]
+  detail: { id: number, title: string, subtitle: string, inntitle: string }[]
 }
-export type Benefits={
+export type Benefits = {
   id: number
   title: string
 }
-export type Developers={
+export type Developers = {
   id: number
   heading: string
-  detail: {img: any, title: string, subtitle: string}[]
+  detail: { img: any, title: string, subtitle: string }[]
 }
 
 //service page
-export type ToolsTechHeadings={
+export type ToolsTechHeadings = {
   id: number
   heading: string
   innHeading: string
   subtitle: string
 }
-export type WebToolsAndTechnologies={
+export type WebToolsAndTechnologies = {
   id: number
   title: string
-  detail:{subtitle: string}[]
+  detail: { subtitle: string }[]
 }
-export type AskQuestionHeading={
+export type AskQuestionHeading = {
   id: number
   heading: string
   innHeading: string
   subtitle: string
 }
 
-export type AskQuestions={
+export type AskQuestions = {
   id: number
   question: string
   Ans: string
 }
 
-export type LookingWebCompany={
+export type LookingWebCompany = {
   id: number
   title: string
   subtitle: string
   btn: string
 }
 
-export type WebResults={
-  id:number
+export type WebResults = {
+  id: number
   title: string
   subtitle: string
   para1: string
-  para2:string
+  para2: string
 }
 
-export type WebDevServicesHeadings={
+export type WebDevServicesHeadings = {
   id: number
   heading: string
   innHeading: string
   subtitle: string
 }
 
-export type WebDevServices={
+export type WebDevServices = {
   id: number
   img: any
   title: string
   detail: string
 }
 
-export type WebEngagementModelHeadings={
+export type WebEngagementModelHeadings = {
   id: number
   heading: string
   innHeading: string
   subtitle: string
 }
 
-export type WebEngagementModels={
+export type WebEngagementModels = {
   id: number
   img1: any
   title: string
-  detail: { img2: any, work:string}[]
+  detail: { img2: any, work: string }[]
 }
-export type WebSolutions={
+export type WebSolutions = {
   id: number
   heading: string
   subHeading: string
-  title:{img1: any, detail: string}[]
+  title: { img1: any, detail: string }[]
   img2: any
 }
-export type WebSolutionHeadings={
+export type WebSolutionHeadings = {
   id: number
   heading: string
   innHeading: string
   subtitle: string
 }
-export type WhyCooseUSWeb={
-  id:number
+export type WhyChooseUSWeb = {
+  id: number
   img: any
   title: string
   subtitle: string
 }
-export type ChooseWebPhotos={
+export type ChooseWebPhotos = {
   id: number
   img: any
   title: string
+}
+export type whyChooseUsHeadingWebs = {
+  id: number
+  heading: string
+  innHeading: string
+  subtitle: string
+}
+
+export type OtherServiceHeading = {
+  id: number
+  heading: string
+  innHeading: string
+  subtitle: string
+}
+
+export type OtherServices = {
+  id: number
+  img: any
+  title: string
+}
+export type WebExpertises = {
+  id: number
+  title: string
+  subtitle: string
+  para1: string
+  para2: string
+  btn: string
+}
+
+export type WebQA = {
+  id: number
+  heading: string
+  innHeading: string
+  detail: { img: any, title: string }[]
 }

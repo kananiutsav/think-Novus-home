@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '@/components/Navbar'
 import CompanyPartner from '@/components/CompanyPartner'
-import { CompanyPartnerss, Frame, askQuestion, awards, businessService, bussinessdetail, choosePhoto, companyAddress, footer, lastFooter, lookingWebCom, webDevService, webEngagementModel, webResult, webSolution, webToolsAndTechnology, whyCooseUS } from '@/utils/Constant'
+import { CompanyPartnerss, Frame, askQuestion, awards, blogs, businessService, bussinessdetail, choosePhoto, companyAddress, footer, lastFooter, lookingWebCom, otherService, qaWeb, webDevService, webEngagementModel, webExpertise, webResult, webSolution, webToolsAndTechnology, whyChooseUS } from '@/utils/Constant'
 import Frames from '@/components/Frames'
 import BusinessForm from '@/components/BusinessForm'
 import Address from '@/components/Address'
@@ -15,30 +15,37 @@ import AskQuestion from '@/components/AskQuestion'
 import EngagementModel from '@/components/EngagementModel'
 import Solution from '@/components/Solution'
 import WhyChooseUs from '@/components/WhyChooseUs'
+import Blogs from '@/components/Blogs'
+import OtherServices from '@/components/OtherServices'
+import Expertise from '@/components/Expertise'
 const page = () => {
   return (
     <>
-   <div className='h-screen'>
-   <Navbar />
-    <CompanyPartner data={CompanyPartnerss} />
-   </div>
-   <Frames data={Frame} />
-  
-   <WebResult data={webResult}/>
-   <Services data={webDevService}/>
-   <EngagementModel data={webEngagementModel}/>
-   <ToosAndTechnology data={webToolsAndTechnology}/>
-   <Solution data={webSolution}/>
-   <LookingCompany data={lookingWebCom}/>
-   <AskQuestion data={askQuestion}/>
-   <WhyChooseUs data={whyCooseUS} item={choosePhoto}/>
-   <BusinessForm data={bussinessdetail}  item={businessService} award={awards} footer={lastFooter}/>
-      <Address data={companyAddress}/>
-      <Footer data={footer}/>
-      <Footer2 data={lastFooter}/>
+      <div className='h-screen'>
+        <Navbar />
+        <CompanyPartner data={CompanyPartnerss} />
+      </div>
+      <Frames data={Frame} />
+
+      <WebResult data={webResult} />
+      <Services data={webDevService} />
+      <Expertise data={webExpertise} ans={qaWeb}/>
+      <EngagementModel data={webEngagementModel} />
     
-     
-</>
+      <WhyChooseUs data={whyChooseUS} photo={choosePhoto} />
+      <Solution data={webSolution} />
+      <ToosAndTechnology data={webToolsAndTechnology} />
+      <LookingCompany data={lookingWebCom} />
+      <AskQuestion data={askQuestion} />
+      <OtherServices data={otherService}/>
+      <Blogs data={blogs} />
+      <BusinessForm data={bussinessdetail} item={businessService} award={awards} footer={lastFooter} />
+      <Address data={companyAddress} />
+      <Footer data={footer} />
+      <Footer2 data={lastFooter} />
+
+
+    </>
   )
 }
 

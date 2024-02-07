@@ -10,7 +10,7 @@ type WebToolsAndTechnologiesData = {
 const ToosAndTechnology = ({ data }: WebToolsAndTechnologiesData) => {
     return (
         <>
-            <div className='max-w-[1200px] mx-auto'>
+            <div className='max-w-[1200px] mx-auto pt-[80px]'>
                 <div>
                     <Heading data={toolsTechHeading} />
                 </div>
