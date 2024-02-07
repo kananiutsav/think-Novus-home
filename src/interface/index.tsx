@@ -305,3 +305,13 @@ export type WebQA = {
   innHeading: string
   detail: { img: any, title: string }[]
 }
+
+export type WebHeadingPage={
+  id: number
+  title: string
+  innertitle: string
+  subtitle: string
+  companypartnerimg: any
+  btn1: string
+  btn2: string
+}

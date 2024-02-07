@@ -955,6 +955,18 @@ const developer = [
 
 //services page  data
 
+const webHeading=[
+    {
+        id: 1,
+        companypartnerimg: mobiledevelopment,
+        title: "Web ",
+        innertitle: "Development Company",
+        subtitle: "We are Top-notch Web & Mobile app development company and we think out of the box to build client's visions or ideas to world-class digital products.",
+        btn1: "Get a free quote",
+        btn2: " Learn More"
+    }
+]
+
 const toolsTechHeading = [
     {
         id: 1,
@@ -1394,7 +1406,8 @@ export {
     otherServiceHeading,
     otherService,
     webExpertise,
-    qaWeb
+    qaWeb,
+    webHeading
 }
 
 

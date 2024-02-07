@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '@/components/Navbar'
 import CompanyPartner from '@/components/CompanyPartner'
-import { CompanyPartnerss, Frame, askQuestion, awards, blogs, businessService, bussinessdetail, choosePhoto, companyAddress, footer, lastFooter, lookingWebCom, otherService, qaWeb, webDevService, webEngagementModel, webExpertise, webResult, webSolution, webToolsAndTechnology, whyChooseUS } from '@/utils/Constant'
+import { CompanyPartnerss, Frame, askQuestion, awards, blogs, businessService, bussinessdetail, choosePhoto, companyAddress, footer, lastFooter, lookingWebCom, otherService, qaWeb, webDevService, webEngagementModel, webExpertise, webHeading, webResult, webSolution, webToolsAndTechnology, whyChooseUS } from '@/utils/Constant'
 import Frames from '@/components/Frames'
 import BusinessForm from '@/components/BusinessForm'
 import Address from '@/components/Address'
@@ -23,7 +23,7 @@ const page = () => {
     <>
       <div className='h-screen'>
         <Navbar />
-        <CompanyPartner data={CompanyPartnerss} />
+        <CompanyPartner data={webHeading} />
       </div>
       <Frames data={Frame} />
 

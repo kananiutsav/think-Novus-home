@@ -28,7 +28,7 @@ const CompanyPartner = ({ data }: SwiperData) => {
           spaceBetween={50}
           slidesPerView={1}
           autoplay={{ delay: 5000 }}
-          navigation={true}
+          navigation={false}
           // pagination={{ dynamicBullets: true, clickable: true }}
           scrollbar={{ draggable: true }}
           loop
