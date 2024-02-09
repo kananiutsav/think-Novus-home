@@ -296,13 +296,61 @@ flex-wrap: wrap;
     border-radius: 50%; 
 }
 
-
-
-
-
-
-
  .slide-in-elliptic-left-fwd{-webkit-animation:slide-in-elliptic-left-fwd .7s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-elliptic-left-fwd .7s cubic-bezier(.25,.46,.45,.94) both}
 
 
  @-webkit-keyframes slide-in-elliptic-left-fwd{0%{-webkit-transform:translateX(-800px) rotateY(30deg) scale(0);transform:translateX(-800px) rotateY(30deg) scale(0);-webkit-transform-origin:-100% 50%;transform-origin:-100% 50%;opacity:0}100%{-webkit-transform:translateX(0) rotateY(0) scale(1);transform:translateX(0) rotateY(0) scale(1);-webkit-transform-origin:1800px 50%;transform-origin:1800px 50%;opacity:1}}@keyframes slide-in-elliptic-left-fwd{0%{-webkit-transform:translateX(-800px) rotateY(30deg) scale(0);transform:translateX(-800px) rotateY(30deg) scale(0);-webkit-transform-origin:-100% 50%;transform-origin:-100% 50%;opacity:0}100%{-webkit-transform:translateX(0) rotateY(0) scale(1);transform:translateX(0) rotateY(0) scale(1);-webkit-transform-origin:1800px 50%;transform-origin:1800px 50%;opacity:1}}
+
+
+
+
+
+  
+ .card{
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  margin: 0 auto;  
+  background-color: #1A1826;
+  color: white;
+  box-shadow: 0 -5px 10px black,
+      0 5px 10px black; 
+
+ }
+ .card:nth-child(2){
+  top: 36px;
+ }
+ .card:nth-child(3){
+  top: 72px;
+ }
+ .card:nth-child(4){
+  top: 108px;
+ }
+ .card:nth-child(5){
+  top: 144px;
+ }
+ .content {
+  position: relative;
+  overflow-y: auto;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: transparent transparent; /* For Firefox */
+}
+
+.content::-webkit-scrollbar {
+  width: 0.5em; /* Adjust as needed */
+}
+
+.content::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Adjust as needed */
+}
+
+
+
+
+
+
+
+
+
+
+

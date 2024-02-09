@@ -3,20 +3,22 @@ import { chooseimage } from '@/assets/image'
 import { WhyChooseUSWeb, ChooseWebPhotos } from "@/interface";
 import Image from 'next/image';
 import Heading from '@/allHeading/Heading';
-import { whyChooseUsHeadingWeb } from '@/utils/Constant';
+import { whyChooseUsHeadingWeb, whyChooseUsHeadingmobileApp } from '@/utils/Constant';
 type WhyCooseUSWebData = {
     data: WhyChooseUSWeb[];
+    isMobileApp?: boolean; 
 };
 type ChooseWebPhotosData = {
     photo: ChooseWebPhotos[];
 };
 
-const WhyChooseUs: React.FC<WhyCooseUSWebData & ChooseWebPhotosData> = ({ data, photo }) => {
+const WhyChooseUs: React.FC<WhyCooseUSWebData & ChooseWebPhotosData> = ({ data, photo ,isMobileApp}) => {
+    const headingData = isMobileApp ? whyChooseUsHeadingmobileApp  :whyChooseUsHeadingWeb ;
     return (
 
         <>
             <div className='my-[100px] max-w-[1200px] mx-auto'>
-                <Heading data={whyChooseUsHeadingWeb}/>
+                <Heading data={headingData}/>
                 <div className='    text-white flex  max-w-[1200px] mx-auto gap-[20px] items-center '>
                     <div className=''>
                         <Image
@@ -75,7 +77,7 @@ const WhyChooseUs: React.FC<WhyCooseUSWebData & ChooseWebPhotosData> = ({ data, 
                 </div>
                 <div className='flex  gap-x-[20px] pt-[60px] '>
                     {photo && photo.map((picture)=>(
-                        <div key={picture.id} className='bg-[#1A1826] text-white w-[285px] py-[36px] px-[45px] h-[192px]  rounded-[14px] '>
+                        <div key={picture.id} className='bg-[#1A1826] cursor-pointer text-white w-[285px] py-[36px] px-[45px] h-[192px]  rounded-[14px] '>
                          <div className=''>
                          <Image
                             src={picture.img}

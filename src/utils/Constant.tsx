@@ -168,6 +168,13 @@ import gradle from "@/assets/image/gradle.png"
 import circlecl from "@/assets/image/circlecl.png"
 
 
+import mobileApp1 from "@/assets/image/mobileApp1.png"
+import mobileApp2 from "@/assets/image/mobileApp2.png"
+import mobileApp3 from "@/assets/image/mobileApp3.png"
+import mobileApp4 from "@/assets/image/mobileApp4.png"
+
+
+
 const CompanyPartnerss = [
     {
         id: 1,
@@ -953,12 +960,12 @@ const developer = [
 ]
 
 
-//services page  data
+//Web page  data
 
-const webHeading=[
+const webHeading = [
     {
         id: 1,
-        companypartnerimg: mobiledevelopment,
+        companypartnerimg: webdevelopment,
         title: "Web ",
         innertitle: "Development Company",
         subtitle: "We are Top-notch Web & Mobile app development company and we think out of the box to build client's visions or ideas to world-class digital products.",
@@ -1141,15 +1148,7 @@ const devServices = [
     },
 ]
 
-const webResult = [
-    {
-        id: 1,
-        title: "Web Development Company",
-        subtitle: "That Deliver Websites Built For Results",
-        para1: "Your website is your brand. It is an asset built for executing brave business and marketing strategies. A platform where users get to virtually experience your brand values. It is therefore must to choose a website development service provider who you can rely upon for implementing every aspect with great excellence.",
-        para2: "We are a team of web developers that live these three fundamentals to core – user experience, scalability and security for website development. Our end-to-end web development services help you improve the online presence, add any new feature, boost revenue, and make the web design appealing. Let’s digitize the business and disrupt the market."
-    }
-]
+
 
 const webEngagementModelHeading = [
     {
@@ -1357,9 +1356,263 @@ const qaWeb = [
         id: 1,
         heading: "QA",
         innHeading: "End-to-end testing and quality assurance to ensure reliable and glitch-free mobile app solutions for your business.",
-        detail: [{ img: salenium, title: "Selenium" },{img: maven, title:"Maven"}, {img: gradle, title:"Gradle"}, {img:circlecl, title:"Circle CI"}]
+        detail: [{ img: salenium, title: "Selenium" }, { img: maven, title: "Maven" }, { img: gradle, title: "Gradle" }, { img: circlecl, title: "Circle CI" }]
     }
 ]
+
+const projects = [
+    {
+        id: 1,
+        title: "Matthias Leidinger",
+        description: "Originally hailing from Austria, Berlin-based photographer Matthias Leindinger is a young creative brimming with talent and ideas.",
+        src: "rock.jpg",
+        link: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
+        color: "#BBACAF"
+    },
+    {
+        id: 2,
+        title: "Clément Chapillon",
+        description: "This is a story on the border between reality and imaginary, about the contradictory feelings that the insularity of a rocky, arid, and wild territory provokes”—so French photographer Clément Chapillon describes his latest highly captivating project Les rochers fauves (French for ‘The tawny rocks’).",
+        src: "tree.jpg",
+        link: "https://www.ignant.com/2022/09/30/clement-chapillon-questions-geographical-and-mental-isolation-with-les-rochers-fauves/",
+        color: "#977F6D"
+    },
+    {
+        id: 3,
+        title: "Zissou",
+        description: "Though he views photography as a medium for storytelling, Zissou’s images don’t insist on a narrative. Both crisp and ethereal, they’re encoded with an ambiguity—a certain tension—that lets the viewer find their own story within them.",
+        src: "water.jpg",
+        link: "https://www.ignant.com/2023/10/28/capturing-balis-many-faces-zissou-documents-the-sacred-and-the-mundane-of-a-fragile-island/",
+        color: "#C2491D"
+    },
+    {
+        id: 4,
+        title: "Mathias Svold and Ulrik Hasemann",
+        description: "The coastlines of Denmark are documented in tonal colors in a pensive new series by Danish photographers Ulrik Hasemann and Mathias Svold; an ongoing project investigating how humans interact with and disrupt the Danish coast.",
+        src: "house.jpg",
+        link: "https://www.ignant.com/2019/03/13/a-photographic-series-depicting-the-uncertain-future-of-denmarks-treasured-coastlines/",
+        color: "#B62429"
+    },
+    {
+        id: 5,
+        title: "Mark Rammers",
+        description: "Dutch photographer Mark Rammers has shared with IGNANT the first chapter of his latest photographic project, ‘all over again’—captured while in residency at Hektor, an old farm in Los Valles, Lanzarote. Titled ‘Beginnings’, the mesmerizing collection of images is a visual and meditative journey into the origins of regrets and the uncertainty of stepping into new unknowns.",
+        src: "cactus.jpg",
+        link: "https://www.ignant.com/2023/04/12/mark-rammers-all-over-again-is-a-study-of-regret-and-the-willingness-to-move-forward/",
+        color: "#88A28D"
+    }
+]
+
+const result = [
+    {
+        id: 1,
+        title: "Web Development Company",
+        subtitle: "That Deliver Websites Built For Results",
+        detail: [{ para: "Your website is your brand. It is an asset built for executing brave business and marketing strategies. A platform where users get to virtually experience your brand values. It is therefore must to choose a website development service provider who you can rely upon for implementing every aspect with great excellence." },
+                 { para: "We are a team of web developers that live these three fundamentals to core – user experience, scalability and security for website development. Our end-to-end web development services help you improve the online presence, add any new feature, boost revenue, and make the web design appealing. Let’s digitize the business and disrupt the market." }
+                ]
+    }
+]
+//mobile App Data
+const mobileHeading = [
+    {
+        id: 1,
+        companypartnerimg: mobiledevelopment,
+        title: "Mobile App ",
+        innertitle: "Development Company",
+        subtitle: "We are Top-notch Web & Mobile app development company and we think out of the box to build client's visions or ideas to world-class digital products.",
+        btn1: "Get a free quote",
+        btn2: " Learn More"
+    }
+]
+
+const mobileappServicesHeading = [
+    {
+        id: 1,
+        heading: "Mobile Application Development ",
+        innHeading: "Service",
+        subtitle: "ThinkNovus has successfully delivered 4K+ web development projects ranging from web-based apps, e-commerce portals, CMS, B2B & B2C applications, Intranet and Extranet Portals, and more. With our bespoke "
+    }
+]
+
+const mobileAppService = [
+    {
+        id: 1,
+        img: mobileApp1,
+        title: "iOS App Development Company",
+        detail: "As a full-stack iOS app development company, we've developed apps that have seen tremendous success. We provide custom iPhone application development services by a team of highly skilled and experienced iOS app developers."
+    },
+    {
+        id: 2,
+        img: mobileApp2,
+        title: "Android App Development Company",
+        detail: "Our Android development services cater to the needs of established companies as well as small and medium-sized businesses (SMEs). The Android app developers at our company provide effective and reliable custom Android apps."
+    },
+    {
+        id: 3,
+        img: mobileApp3,
+        title: "Cross-platform App Development Company",
+
+        detail: "We have extensive experience building cross-platform mobile applications and web experiences in different verticals. We use technologies like HTML5, CSS3, and JavaScript, as well as responsive and adaptive app design techniques."
+    },
+    {
+        id: 4,
+        img: mobileApp4,
+        title: "Mobile App Strategy",
+
+        detail: "Get a customized mobile app development strategy fine-tuned with your business requirements. Our mobile app developers help streamline the mobile app strategy, reducing the time to market and the development cost."
+    },
+    {
+        id: 5,
+        img: mobileApp4,
+        title: "Mobile App Strategy",
+        detail: "Get a customized mobile app development strategy fine-tuned with your business requirements. Our mobile app developers help streamline the mobile app strategy, reducing the time to market and the development cost."
+    },
+    {
+        id: 6,
+        img: mobileApp4,
+        title: "Mobile App Strategy",
+        detail: "Get a customized mobile app development strategy fine-tuned with your business requirements. Our mobile app developers help streamline the mobile app strategy, reducing the time to market and the development cost."
+    },
+]
+
+const mobileToolsAndTechnology = [
+    {
+        id: 1,
+        title: "Android",
+        detail: [{ subtitle: "Java" }, { subtitle: "Kotlin" }, { subtitle: "Android Studio" }, { subtitle: "Graddle" }, { subtitle: "Dagger2" }, { subtitle: "JetPack" }, { subtitle: "Coroutines" }, { subtitle: "Fastlane" }]
+    },
+    {
+        id: 2,
+        title: "iOS",
+        detail: [{ subtitle: "Swift" }, { subtitle: "Objective-C" }, { subtitle: "SwiftUI" }, { subtitle: "CocoaPods" }, { subtitle: "RxSwift" }, { subtitle: "SwiftLint" }, { subtitle: "CircleCI" }, { subtitle: "X-Code" }]
+    },
+    {
+        id: 3,
+        title: "Cross-Platform",
+        detail: [{ subtitle: "Flutter" }, { subtitle: "React Native" }, { subtitle: "Native Script" }, { subtitle: "Ionic" }, { subtitle: "JavaScript" }, { subtitle: "TypeScript" }, { subtitle: "HTML5" }]
+    },
+    {
+        id: 4,
+        title: "Database",
+        detail: [{ subtitle: "Firebase" }, { subtitle: "Redis" }, { subtitle: "PostgreSQL" }, { subtitle: "MongoDB" }, { subtitle: "MySQL" }, { subtitle: "SQLite" }, { subtitle: "DynamoDB" }, { subtitle: "Room persistence library" }, { subtitle: "Core data" }, { subtitle: "Firestore" }, { subtitle: "Realm" }, { subtitle: "Hive" }, { subtitle: "ObjectBox" }, { subtitle: "Sembast" }, { subtitle: "StorageMoor" }, { subtitle: "Async Storage" }, { subtitle: "MMKV storage" }, { subtitle: "WatermelonDB" }]
+    }
+]
+
+const askmobileAppQuestion = [
+    {
+        id: 1,
+        question: "Will your developers be available to have a meeting in my time zone?",
+        Ans: "One of the main reasons to outsource is to work round-the-clock; and that too, at a better cost than hiring in-house staff. We generally work from 10 AM to 7 PM IST (Mon - Fri); however, for the call/meeting, hired developers can make adjustments for around +/- 3 hours from regular office hours."
+    },
+    {
+        id: 2,
+        question: "Does Thinknovus take care of the confidentiality of the client's intellectual property?",
+        Ans: "One of the main reasons to outsource is to work round-the-clock; and that too, at a better cost than hiring in-house staff. We generally work from 10 AM to 7 PM IST (Mon - Fri); however, for the call/meeting, hired developers can make adjustments for around +/- 3 hours from regular office hours."
+    },
+    {
+        id: 3,
+        question: "Will I get post-mobile app development support?",
+        Ans: "One of the main reasons to outsource is to work round-the-clock; and that too, at a better cost than hiring in-house staff. We generally work from 10 AM to 7 PM IST (Mon - Fri); however, for the call/meeting, hired developers can make adjustments for around +/- 3 hours from regular office hours."
+    },
+    {
+        id: 4,
+        question: "Can you help me complete my incomplete app development project?",
+        Ans: "One of the main reasons to outsource is to work round-the-clock; and that too, at a better cost than hiring in-house staff. We generally work from 10 AM to 7 PM IST (Mon - Fri); however, for the call/meeting, hired developers can make adjustments for around +/- 3 hours from regular office hours."
+    },
+    {
+        id: 5,
+        question: "How much does it cost to develop a custom mobile app?",
+        Ans: "One of the main reasons to outsource is to work round-the-clock; and that too, at a better cost than hiring in-house staff. We generally work from 10 AM to 7 PM IST (Mon - Fri); however, for the call/meeting, hired developers can make adjustments for around +/- 3 hours from regular office hours."
+    },
+    {
+        id: 6,
+        question: "We already have designs, can you work with those?",
+        Ans: "One of the main reasons to outsource is to work round-the-clock; and that too, at a better cost than hiring in-house staff. We generally work from 10 AM to 7 PM IST (Mon - Fri); however, for the call/meeting, hired developers can make adjustments for around +/- 3 hours from regular office hours."
+    },
+    {
+        id: 7,
+        question: "I have a website, can you build an app for the same?",
+        Ans: "One of the main reasons to outsource is to work round-the-clock; and that too, at a better cost than hiring in-house staff. We generally work from 10 AM to 7 PM IST (Mon - Fri); however, for the call/meeting, hired developers can make adjustments for around +/- 3 hours from regular office hours."
+    },
+    {
+        id: 8,
+        question: "How long does it take to build a custom mobile App from scratch?",
+        Ans: "One of the main reasons to outsource is to work round-the-clock; and that too, at a better cost than hiring in-house staff. We generally work from 10 AM to 7 PM IST (Mon - Fri); however, for the call/meeting, hired developers can make adjustments for around +/- 3 hours from regular office hours."
+    }
+]
+
+const lookingMobileAppCom = [
+    {
+        id: 1,
+        title: "Looking for a Mobile App Development Company?",
+        subtitle: "Still thinking about whether to start your software project or need some guidance? Don't worry! Just schedule a call with us, and our executives will help you define the best-fit solution to meet your requirements.",
+        btn: "Schedule A Call"
+
+    }
+]
+
+const mobileAppresult = [
+    {
+        id: 1,
+        title: "Custom Mobile App",
+        subtitle: "Development Services Tailored to Your Business Needs",
+        detail: [{ para: "We deliver outstanding custom mobile app development services specifically tailored to help businesses explore new opportunities." },
+                 { para: "OpenXcell delivers high-end mobile app development services to clients. We excel at providing premium user experiences with our iOS app development and cross-platform mobile development services." },
+                 {para:"As one of the top app development companies, OpenXcell’s mobile solutions are guaranteed to be reliable, secure, and exclusive. Get mobile app development solutions from experts who are knowledgeable about the latest market trends and techniques. Among our niched and global clientele, our certified app developers have developed a wide range of scalable and secure mobile apps. Since we are the best mobile app development company with 13+ years of full-scale experience, our in-house iOS app developers are experts at creating high-quality mobile apps."},
+                 {para:"We develop dependable, scalable Android solutions with our Android app developers in India and the USA. Our JavaScript development expertise is complemented by comprehensive experience in developing RIA applications. Additionally, we provide SaaS development and help you build smart apps that are easy to use. Our highly experienced designers create intuitive UI designs for seamless user experiences across platforms."},
+                 {para:"OpenXcell’s app developers use proprietary frameworks paired with process-oriented development and delivery to maximize efficiency and minimize delivery time. Hire the top 1% of mobile app developers who are experts in Android, iOS, Xamarin, React Native, and many more, as well as capable of integrating emerging tech trends, such as AI/ML, VR, and the Internet of Things. Whether you need native, cross-platform apps, or e-commerce apps, our developers can help."}
+                ]
+    }
+]
+
+const mobileAppExpertise = [
+    {
+        id: 1,
+        title: "Our Expertise in Mobile ",
+        subtitle: "App Development",
+        para1: "At ThinkNovus, we pride ourselves on being a top mobile application development services company that consistently pushes the boundaries of technology. When you partner with Thinknovus, you gain access to a wealth of experience in mobile development services.",
+        para2: "We've mastered our core technology skills through countless successful mobile app projects, making us adept at crafting custom mobile app development solutions tailored to your unique business requirements.",
+        btn: "Get in touch"
+    }
+]
+const whyChooseUsHeadingmobileApp = [
+    {
+        id: 1,
+        heading: "Why Choose Us  ",
+        innHeading: "for Mobile App Development Services?",
+        subtitle: "When you partner with ThinkNovus, you get access to an experienced mobile app development team that is committed to delivering innovative and impactful mobile app solutions adhering to industry best practices. "
+    }
+]
+
+const mobileAppSolutionHeading = [
+    {
+        id: 1,
+        heading: "Mobile Development Solution for ",
+        innHeading: "Diverse Industries",
+        subtitle: "Our team of software development experts collaborates with clients to understand their roadblocks and objectives, enabling us to develop custom software development solutions that are efficient and scalable for diverse industries. "
+    }
+]
+
+const mobileAppEngagementModelHeading = [
+    {
+        id: 1,
+        heading: "Our Engagement Models  ",
+        innHeading: "for Mobile App Development",
+        subtitle: "Our team of software development experts collaborates with clients to understand their roadblocks and objectives, enabling us to develop custom software development solutions that are efficient and scalable for diverse industries. "
+    }
+]
+
+const toolsTechHeadingmobileApp = [
+    {
+        id: 1,
+        heading: "Tools & Technologies We Use For",
+        innHeading: "Mobile App Development",
+        subtitle: "Here's the list of mobile app development tools and technologies that enables us to convert mobile app ideas into real projects creatively. "
+    }
+]
+
+
 
 export {
     CompanyPartnerss,
@@ -1392,7 +1645,7 @@ export {
     askQuestionHeading,
     lookingWebCom,
     devServices,
-    webResult,
+  
     webdevServicesHeading,
     webDevService,
     toolsTechHeading,
@@ -1407,8 +1660,25 @@ export {
     otherService,
     webExpertise,
     qaWeb,
-    webHeading
+    webHeading,
+    projects,
+    result,
+    //mobileApp
+    mobileHeading,
+    mobileappServicesHeading,
+    mobileAppService,
+    mobileToolsAndTechnology,
+    askmobileAppQuestion,
+    lookingMobileAppCom,
+    mobileAppresult,
+    mobileAppExpertise,
+    whyChooseUsHeadingmobileApp,
+    mobileAppSolutionHeading,
+    mobileAppEngagementModelHeading,
+    toolsTechHeadingmobileApp
 }
+
+
 
 
 

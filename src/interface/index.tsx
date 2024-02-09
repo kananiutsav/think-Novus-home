@@ -315,3 +315,37 @@ export type WebHeadingPage={
   btn1: string
   btn2: string
 }
+
+
+export type Projects={
+  id: number,
+  title: string
+  description: string
+  src:string
+  link: string
+  color: string
+}
+
+//mobileApp
+export type MobileHeadingPage={
+  id: number
+  title: string
+  innertitle: string
+  subtitle: string
+  companypartnerimg: any
+  btn1: string
+  btn2: string
+}
+
+export type Results={
+  id: number
+  title: string
+  subtitle: string
+  detail:{para: string}[]
+}
+export type MobileAppResults={
+  id: number
+  title: string
+  subtitle: string
+  detail:{para: string}[]
+}

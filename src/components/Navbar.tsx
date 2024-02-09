@@ -22,7 +22,7 @@ const Navbar = () => {
                         <Logo />
                     </div>
                     <div className="hidden md:flex items-center justify-center gap-x-4  text-white">
-                        <Link href='/' className='flex items-center'><p className='text-base font-semibold  '>Company </p><IoMdArrowDropdown fontSize="1.25rem" /></Link>
+                        <Link href='/mobileapp' className='flex items-center'><p className='text-base font-semibold  '>Company </p><IoMdArrowDropdown fontSize="1.25rem" /></Link>
                         <Link href='/' className='flex items-center'><p className='text-base font-semibold'>Solution</p><IoMdArrowDropdown fontSize="1.25rem" /></Link>
                         <Link href='/services' className='flex items-center'><p className='text-base font-semibold'>Services</p><IoMdArrowDropdown fontSize="1.25rem" /></Link>
                         <Link href='/' className='flex items-center'><p className='text-base font-semibold'>Hire Developers</p><IoMdArrowDropdown fontSize="1.25rem" /></Link>

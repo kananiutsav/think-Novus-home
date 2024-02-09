@@ -28,7 +28,7 @@ const CompanyPartner = ({ data }: SwiperData) => {
           spaceBetween={50}
           slidesPerView={1}
           autoplay={{ delay: 5000 }}
-          navigation={false}
+          // navigation={true}
           // pagination={{ dynamicBullets: true, clickable: true }}
           scrollbar={{ draggable: true }}
           loop
@@ -47,11 +47,9 @@ const CompanyPartner = ({ data }: SwiperData) => {
                   </div>
                   <div className='inline-flex h-[47px] gap-[20px] flex-shrink-0 py-[8px]  pt-10 '>
                     <div className='flex'>
-
                       <Button
                         label={item.btn1}
                         className='px-[14px] md:text-base text-sm py-[10px]  font-semibold text-primary '
-
                       />
 
                     </div>
@@ -74,13 +72,9 @@ const CompanyPartner = ({ data }: SwiperData) => {
                 </div>
               </div>
             </SwiperSlide>
-
           ))}
         </Swiper>
-
       </div>
-
-
     </>
   )
 }

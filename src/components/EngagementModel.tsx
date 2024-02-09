@@ -2,18 +2,20 @@ import React from 'react'
 import { WebEngagementModels } from '@/interface';
 import Image from 'next/image';
 import Heading from '@/allHeading/Heading';
-import { webEngagementModelHeading } from '@/utils/Constant';
+import { webEngagementModelHeading,mobileAppEngagementModelHeading } from '@/utils/Constant';
 
 type WebEngagementModelsData = {
     data: WebEngagementModels[];
+    isMobileApp?: boolean; 
 };
-const EngagementModel = ({ data }: WebEngagementModelsData) => {
+const EngagementModel = ({ data, isMobileApp }: WebEngagementModelsData) => {
+    const headingData = isMobileApp ?  mobileAppEngagementModelHeading : webEngagementModelHeading;
     return (
         <>
             <div>
                 <div className="max-w-[1200px] mx-auto ">
                     <div>
-                        <Heading data={webEngagementModelHeading} />
+                        <Heading data={headingData} />
                     </div>
 
                     <div className="text-white flex flex-wrap justify-between gap-y-[20px] pt-[30px] ">

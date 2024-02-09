@@ -23,13 +23,15 @@ import 'swiper/css/navigation';
 import { FiArrowRight } from "react-icons/fi";
 import { FiArrowLeft } from "react-icons/fi";
 import Heading from '@/allHeading/Heading';
-import { webSolutionHeading } from '@/utils/Constant';
+import { webSolutionHeading , mobileAppSolutionHeading} from '@/utils/Constant';
 
 type WebSolutionsData = {
-    data: WebSolutions[]
+    data: WebSolutions[];
+    isMobileApp?: boolean; 
 }
 
-const Solution = ({ data }: WebSolutionsData) => {
+const Solution = ({ data,isMobileApp }: WebSolutionsData) => {
+    const headingData = isMobileApp ? mobileAppSolutionHeading  : webSolutionHeading ;
     const [activeIndex, setActiveIndex] = useState(1);
     const handleSlideChange = (swiper: any) => {
 
@@ -41,7 +43,7 @@ const Solution = ({ data }: WebSolutionsData) => {
 
             <div className='pb-[50px] flex items-end max-w-[1200px] mx-auto'>
                 <div>
-                    <Heading data={webSolutionHeading}/>
+                    <Heading data={headingData}/>
                 </div>
                 <div className='flex text-white justify-end w-[30%]'>
                     <div className="swiper-btn-prev">

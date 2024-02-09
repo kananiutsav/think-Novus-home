@@ -151,6 +151,15 @@ import maven from "@/assets/image/maven.png"
 import gradle from "@/assets/image/gradle.png"
 import circlecl from "@/assets/image/circlecl.png"
 
+import scroll1 from "@/assets/image/scroll1.jpeg"
+import scroll2 from "@/assets/image/scroll2.jpeg"
+
+import mobileApp1 from "@/assets/image/mobileApp1.png"
+import mobileApp2 from "@/assets/image/mobileApp2.png"
+import mobileApp3 from "@/assets/image/mobileApp3.png"
+import mobileApp4 from "@/assets/image/mobileApp4.png"
+
+
 export {
     companypartner,
     webdevelopment,
@@ -296,5 +305,11 @@ export {
     salenium,
     maven,
     gradle,
-    circlecl
+    circlecl,
+    scroll1,
+    scroll2,
+    mobileApp1,
+    mobileApp2,
+    mobileApp3,
+    mobileApp4
 }
