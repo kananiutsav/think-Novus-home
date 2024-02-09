@@ -13,7 +13,7 @@ const EngagementModel = ({ data, isMobileApp }: WebEngagementModelsData) => {
     return (
         <>
             <div>
-                <div className="max-w-[1200px] mx-auto ">
+                <div className="max-w-[1200px] mx-auto pt-[50px]">
                     <div>
                         <Heading data={headingData} />
                     </div>
