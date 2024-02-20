@@ -23,13 +23,11 @@ const Experience = ({ data }: Experiences) => {
                         />
                     </div>
                     <div className='  shrink-0 mt-[25px]'>
-
                         <h1 className='text-white   text-[36px] font-[600] leading-[30px]  '>
                             Why Choose <span className=' custom-gradient'> Us </span>
                         </h1>
                         <h1><span className=" text-black GFG text-center text-[75px] font-[600] ">8+ Years </span><span className='custom-gradient text-[24px]  font-[600] leading=[9.19px]  text-center'>Experience</span></h1>
                     </div>
-
                 </div>
                 <div className='flex gap-[21px] justify-end absolute left-[14.5%] bottom-[30px] z-10'>
                     {data &&
@@ -48,7 +46,6 @@ const Experience = ({ data }: Experiences) => {
                                         <h1 className="text-[24px] custom-gradient text-center font-[700] ">{item.record}</h1>
                                         <p className="text-[18px] font-[500] text-center leading-[4.8px]   ">{item.detail}</p>
                                     </div>
-
                                 </div>
                             </div>
                         ))}
@@ -58,8 +55,7 @@ const Experience = ({ data }: Experiences) => {
                                 What to start a project?
                             </h1>
                             <button className='text-white mt-3 text-center text-[14px] font-[500] py-[8px] px-[27px] border border-white border-solid rounded-3xl'>Get Cost Estimation for Free</button>
-                        </div>
-                       
+                        </div>   
                     </div>
                 </div>
             </div>

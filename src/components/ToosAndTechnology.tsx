@@ -1,5 +1,6 @@
+
 import Heading from '@/allHeading/Heading'
-import { toolsTechHeading, toolsTechHeadingmobileApp } from '@/utils/Constant'
+import { toolsTechHeading, toolsTechHeadingmobileApp,powerProjectHeading } from '@/utils/Constant'
 import React from 'react'
 import { WebToolsAndTechnologies } from "@/interface";
 import Image from 'next/image';
@@ -7,9 +8,14 @@ import Image from 'next/image';
 type WebToolsAndTechnologiesData = {
     data: WebToolsAndTechnologies[];
     isMobileApp?: boolean; 
+    ispowerProjectHeading?: boolean; 
 }
-const ToosAndTechnology = ({ data, isMobileApp }: WebToolsAndTechnologiesData) => {
-    const headingData = isMobileApp ? toolsTechHeadingmobileApp : toolsTechHeading;
+const ToosAndTechnology = ({ data, isMobileApp , ispowerProjectHeading}: WebToolsAndTechnologiesData) => {
+   const headingData = isMobileApp
+        ? toolsTechHeadingmobileApp
+        : ispowerProjectHeading // Use the third heading when powerProjectHeading is true
+        ? powerProjectHeading
+        : toolsTechHeading;
     return (
         <>
             <div className='max-w-[1200px] mx-auto pt-[80px]'>
@@ -41,7 +47,7 @@ const ToosAndTechnology = ({ data, isMobileApp }: WebToolsAndTechnologiesData) =
                         }
                     </div>
                     <div className='bg-[#1A1825] gap-x-[430px] py-[30px] px-[32px] rounded-[10.64px] h-[106.38px]  items-center mt-[39px] flex toolsborder'>
-                        <h3 className='text-white font-[400] text-[24px] justify-center'>Want to start a Web development project?</h3>
+                        <h3 className='text-white font-[400] text-[24px] justify-center'>Want to start a  development project?</h3>
                         <button className='text-white text-[16px] tracking-[-0.15px] items-center font-[500] bg-gradient-to-r from-purple-500 via-purple-700 to-blue-500 rounded-full py-[8px] px-[27px] border-[1.06px] '>Let’s Discuss</button>
                     </div>
                 </div>

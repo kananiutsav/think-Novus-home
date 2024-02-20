@@ -2,13 +2,20 @@
 import React, { useState } from 'react';
 import { AskQuestions } from "@/interface";
 import Heading from '@/allHeading/Heading';
-import {  askQuestionHeading } from '@/utils/Constant';
+import {  askQuestionHeading, askQuestionServicesHeading,askQuestionHeadingCreativeDesign } from '@/utils/Constant';
 
 type AskQuestionProps = {
   data: AskQuestions[];
+  isService?: boolean;
+  isCreativeDesign?: boolean; 
 };
 
-const AskQuestion: React.FC<AskQuestionProps> = ({ data }) => {
+const AskQuestion: React.FC<AskQuestionProps> = ({ data, isService , isCreativeDesign}: AskQuestionProps) => {
+  const headingData = isService
+    ? askQuestionServicesHeading
+    : isCreativeDesign
+      ? askQuestionHeadingCreativeDesign // Use the third heading when isCreativeDesign is true
+      : askQuestionHeading;
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggleAccordionItem = (index: number) => {
@@ -18,7 +25,7 @@ const AskQuestion: React.FC<AskQuestionProps> = ({ data }) => {
   return (
     <div className='max-w-[1200px] mx-auto'>
         <div>
-        <Heading data={askQuestionHeading}/>
+        <Heading data={headingData}/>
         </div>
 
       {data.map((item, index) => (

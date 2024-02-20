@@ -159,7 +159,73 @@ import mobileApp2 from "@/assets/image/mobileApp2.png"
 import mobileApp3 from "@/assets/image/mobileApp3.png"
 import mobileApp4 from "@/assets/image/mobileApp4.png"
 
+import ServiceHeading from "@/assets/image/ServiceHeading.png"
 
+import CreativeDesign from "@/assets/image/CreativeDesign.png"
+import WebDesign from "@/assets/image/WebDesign.png"
+import MobileDesign from "@/assets/image/MobileDesign.png"
+import CloudDesign from "@/assets/image/CloudDesign.png"
+import DigitalDesign from "@/assets/image/DigitalDesign.png"
+
+import MobileDesign1 from "@/assets/image/MobileDesign1.png"
+import MobileDesign2 from "@/assets/image/MobileDesign2.png"
+import MobileDesign3 from "@/assets/image/MobileDesign3.png"
+import MobileDesign4 from "@/assets/image/MobileDesign4.png"
+
+import WebDesign1 from "@/assets/image/WebDesign1.png"
+import WebDesign2 from "@/assets/image/WebDesign2.png"
+import WebDesign3 from "@/assets/image/WebDesign3.png"
+import WebDesign4 from "@/assets/image/WebDesign4.png"
+
+import DigitalDesign1 from "@/assets/image/DigitalDesign1.png"
+import DigitalDesign2 from "@/assets/image/DigitalDesign2.png" 
+import DigitalDesign3 from "@/assets/image/DigitalDesign3.png"
+import DigitalDesign4 from "@/assets/image/DigitalDesign4.png"
+
+import Creative1 from "@/assets/image/Creative1.png"
+import Creative2 from "@/assets/image/Creative2.png"
+import Creative3 from "@/assets/image/Creative3.png"
+import Creative4 from "@/assets/image/Creative4.png"
+
+import CloudDesign1 from "@/assets/image/CloudDesign1.png"
+import CloudDesign2 from "@/assets/image/CloudDesign2.png"
+import CloudDesign3 from "@/assets/image/CloudDesign3.png"
+import CloudDesign4 from "@/assets/image/CloudDesign4.png"
+
+import stack1 from "@/assets/image/stack1.png"
+import stack2 from "@/assets/image/stack2.png"
+import stack3 from "@/assets/image/stack3.png"
+import stack4 from "@/assets/image/stack4.png"
+import stack5 from "@/assets/image/stack5.png"
+import stack6 from "@/assets/image/stack6.png"
+
+
+import creativeuiux1 from "@/assets/image/creativeuiux1.png"
+import creativeuiux2 from "@/assets/image/creativeuiux2.png"
+import creativeuiux3 from "@/assets/image/creativeuiux3.png"
+import creativegraphic1 from "@/assets/image/creativegraphic1.png"
+import creativegraphic2 from "@/assets/image/creativegraphic2.png"
+
+import boundries1 from "@/assets/image/boundries1.png"
+import boundries2 from "@/assets/image/boundries2.png"
+import boundries3 from "@/assets/image/boundries3.png"
+import boundries4 from "@/assets/image/boundries4.png"
+
+
+import AndroidServices1 from "@/assets/image/AndroidServices1.png"
+import AndroidServices2 from "@/assets/image/AndroidServices2.png"
+import AndroidServices3 from "@/assets/image/AndroidServices3.png"
+import AndroidServices4 from "@/assets/image/AndroidServices4.png"
+import AndroidServices5 from "@/assets/image/AndroidServices5.png"
+import AndroidServices6 from "@/assets/image/AndroidServices6.png"
+
+
+
+import AndroidMainHeading from "@/assets/image/AndroidMainHeading.png"
+import chooseAndroid1 from "@/assets/image/chooseAndroid1.png"
+import chooseAndroid2 from "@/assets/image/chooseAndroid2.png"
+import chooseAndroid3 from "@/assets/image/chooseAndroid3.png"
+import chooseAndroid4 from "@/assets/image/chooseAndroid4.png"
 export {
     companypartner,
     webdevelopment,
@@ -311,5 +377,57 @@ export {
     mobileApp1,
     mobileApp2,
     mobileApp3,
-    mobileApp4
+    mobileApp4,
+    ServiceHeading,
+    CreativeDesign,
+    WebDesign,
+    MobileDesign,
+    CloudDesign,
+    DigitalDesign,
+    Creative1,
+    Creative2,
+    Creative3,
+    Creative4,
+    CloudDesign1,
+    CloudDesign2,
+    CloudDesign3,
+    CloudDesign4,
+    WebDesign1,
+    WebDesign2,
+    WebDesign4,
+    WebDesign3,
+    MobileDesign1,
+    MobileDesign2,
+    MobileDesign3,
+    MobileDesign4,
+    DigitalDesign1,
+    DigitalDesign2,
+    DigitalDesign3,
+    DigitalDesign4,
+    stack1,
+    stack2,
+    stack3,
+    stack4,
+    stack5,
+    stack6,
+    creativeuiux1,
+    creativeuiux2,
+    creativeuiux3,
+    creativegraphic1,
+    creativegraphic2,
+    boundries1,
+    boundries2,
+    boundries3,
+    boundries4,
+    AndroidMainHeading,
+    AndroidServices1,
+    AndroidServices2,
+    AndroidServices3,
+    AndroidServices4,
+    AndroidServices5,
+    AndroidServices6,
+    chooseAndroid1,
+    chooseAndroid2,
+    chooseAndroid3,
+    chooseAndroid4
 }

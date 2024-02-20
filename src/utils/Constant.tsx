@@ -174,6 +174,73 @@ import mobileApp3 from "@/assets/image/mobileApp3.png"
 import mobileApp4 from "@/assets/image/mobileApp4.png"
 
 
+import ServiceHeading from "@/assets/image/ServiceHeading.png"
+
+
+import CreativeDesign from "@/assets/image/CreativeDesign.png"
+import WebDesign from "@/assets/image/WebDesign.png"
+import MobileDesign from "@/assets/image/MobileDesign.png"
+import CloudDesign from "@/assets/image/CloudDesign.png"
+import DigitalDesign from "@/assets/image/DigitalDesign.png"
+
+import MobileDesign1 from "@/assets/image/MobileDesign1.png"
+import MobileDesign2 from "@/assets/image/MobileDesign2.png"
+import MobileDesign3 from "@/assets/image/MobileDesign3.png"
+import MobileDesign4 from "@/assets/image/MobileDesign4.png"
+
+import WebDesign1 from "@/assets/image/WebDesign1.png"
+import WebDesign2 from "@/assets/image/WebDesign2.png"
+import WebDesign3 from "@/assets/image/WebDesign3.png"
+import WebDesign4 from "@/assets/image/WebDesign4.png"
+
+import DigitalDesign1 from "@/assets/image/DigitalDesign1.png"
+import DigitalDesign2 from "@/assets/image/DigitalDesign2.png"
+import DigitalDesign3 from "@/assets/image/DigitalDesign3.png"
+import DigitalDesign4 from "@/assets/image/DigitalDesign4.png"
+
+import Creative1 from "@/assets/image/Creative1.png"
+import Creative2 from "@/assets/image/Creative2.png"
+import Creative3 from "@/assets/image/Creative3.png"
+import Creative4 from "@/assets/image/Creative4.png"
+
+import CloudDesign1 from "@/assets/image/CloudDesign1.png"
+import CloudDesign2 from "@/assets/image/CloudDesign2.png"
+import CloudDesign3 from "@/assets/image/CloudDesign3.png"
+import CloudDesign4 from "@/assets/image/CloudDesign4.png"
+
+import stack1 from "@/assets/image/stack1.png"
+import stack2 from "@/assets/image/stack2.png"
+import stack3 from "@/assets/image/stack3.png"
+import stack4 from "@/assets/image/stack4.png"
+import stack5 from "@/assets/image/stack5.png"
+import stack6 from "@/assets/image/stack6.png"
+
+import creativeuiux1 from "@/assets/image/creativeuiux1.png"
+import creativeuiux2 from "@/assets/image/creativeuiux2.png"
+import creativeuiux3 from "@/assets/image/creativeuiux3.png"
+import creativegraphic1 from "@/assets/image/creativegraphic1.png"
+import creativegraphic2 from "@/assets/image/creativegraphic2.png"
+
+import boundries1 from "@/assets/image/boundries1.png"
+import boundries2 from "@/assets/image/boundries2.png"
+import boundries3 from "@/assets/image/boundries3.png"
+import boundries4 from "@/assets/image/boundries4.png"
+
+import AndroidMainHeading from "@/assets/image/AndroidMainHeading.png"
+
+
+import AndroidServices1 from "@/assets/image/AndroidServices1.png"
+import AndroidServices2 from "@/assets/image/AndroidServices2.png"
+import AndroidServices3 from "@/assets/image/AndroidServices3.png"
+import AndroidServices4 from "@/assets/image/AndroidServices4.png"
+import AndroidServices5 from "@/assets/image/AndroidServices5.png"
+import AndroidServices6 from "@/assets/image/AndroidServices6.png"
+
+import chooseAndroid1 from "@/assets/image/chooseAndroid1.png"
+import chooseAndroid2 from "@/assets/image/chooseAndroid2.png"
+import chooseAndroid3 from "@/assets/image/chooseAndroid3.png"
+import chooseAndroid4 from "@/assets/image/chooseAndroid4.png"
+
 
 const CompanyPartnerss = [
     {
@@ -1409,8 +1476,8 @@ const result = [
         title: "Web Development Company",
         subtitle: "That Deliver Websites Built For Results",
         detail: [{ para: "Your website is your brand. It is an asset built for executing brave business and marketing strategies. A platform where users get to virtually experience your brand values. It is therefore must to choose a website development service provider who you can rely upon for implementing every aspect with great excellence." },
-                 { para: "We are a team of web developers that live these three fundamentals to core – user experience, scalability and security for website development. Our end-to-end web development services help you improve the online presence, add any new feature, boost revenue, and make the web design appealing. Let’s digitize the business and disrupt the market." }
-                ]
+        { para: "We are a team of web developers that live these three fundamentals to core – user experience, scalability and security for website development. Our end-to-end web development services help you improve the online presence, add any new feature, boost revenue, and make the web design appealing. Let’s digitize the business and disrupt the market." }
+        ]
     }
 ]
 //mobile App Data
@@ -1558,11 +1625,11 @@ const mobileAppresult = [
         title: "Custom Mobile App",
         subtitle: "Development Services Tailored to Your Business Needs",
         detail: [{ para: "We deliver outstanding custom mobile app development services specifically tailored to help businesses explore new opportunities." },
-                 { para: "OpenXcell delivers high-end mobile app development services to clients. We excel at providing premium user experiences with our iOS app development and cross-platform mobile development services." },
-                 {para:"As one of the top app development companies, OpenXcell’s mobile solutions are guaranteed to be reliable, secure, and exclusive. Get mobile app development solutions from experts who are knowledgeable about the latest market trends and techniques. Among our niched and global clientele, our certified app developers have developed a wide range of scalable and secure mobile apps. Since we are the best mobile app development company with 13+ years of full-scale experience, our in-house iOS app developers are experts at creating high-quality mobile apps."},
-                 {para:"We develop dependable, scalable Android solutions with our Android app developers in India and the USA. Our JavaScript development expertise is complemented by comprehensive experience in developing RIA applications. Additionally, we provide SaaS development and help you build smart apps that are easy to use. Our highly experienced designers create intuitive UI designs for seamless user experiences across platforms."},
-                 {para:"OpenXcell’s app developers use proprietary frameworks paired with process-oriented development and delivery to maximize efficiency and minimize delivery time. Hire the top 1% of mobile app developers who are experts in Android, iOS, Xamarin, React Native, and many more, as well as capable of integrating emerging tech trends, such as AI/ML, VR, and the Internet of Things. Whether you need native, cross-platform apps, or e-commerce apps, our developers can help."}
-                ]
+        { para: "OpenXcell delivers high-end mobile app development services to clients. We excel at providing premium user experiences with our iOS app development and cross-platform mobile development services." },
+        { para: "As one of the top app development companies, OpenXcell’s mobile solutions are guaranteed to be reliable, secure, and exclusive. Get mobile app development solutions from experts who are knowledgeable about the latest market trends and techniques. Among our niched and global clientele, our certified app developers have developed a wide range of scalable and secure mobile apps. Since we are the best mobile app development company with 13+ years of full-scale experience, our in-house iOS app developers are experts at creating high-quality mobile apps." },
+        { para: "We develop dependable, scalable Android solutions with our Android app developers in India and the USA. Our JavaScript development expertise is complemented by comprehensive experience in developing RIA applications. Additionally, we provide SaaS development and help you build smart apps that are easy to use. Our highly experienced designers create intuitive UI designs for seamless user experiences across platforms." },
+        { para: "OpenXcell’s app developers use proprietary frameworks paired with process-oriented development and delivery to maximize efficiency and minimize delivery time. Hire the top 1% of mobile app developers who are experts in Android, iOS, Xamarin, React Native, and many more, as well as capable of integrating emerging tech trends, such as AI/ML, VR, and the Internet of Things. Whether you need native, cross-platform apps, or e-commerce apps, our developers can help." }
+        ]
     }
 ]
 
@@ -1612,8 +1679,701 @@ const toolsTechHeadingmobileApp = [
     }
 ]
 
+//service page
+
+const servicePageHeading = [
+    {
+        id: 1,
+        companypartnerimg: ServiceHeading,
+        title: "We Create Great ",
+        innertitle: "Products",
+        subtitle: "ThinkNovus leads the new wave of web and mobile app development companies that masters the language of digital transformation.  Let’s discuss to make it happen for your brand.",
+        btn1: "Get a free quote",
+        btn2: "Learn More"
+    }
+]
 
 
+const designs = [
+    {
+
+        id: 1,
+        mainimg: CreativeDesign,
+        heading: "Creative",
+        innHeading: "Design",
+        detail: [{ img: Creative1, title: "Figma" }, { img: Creative2, title: "XD" }, { img: Creative3, title: "Illustrator" }, { img: Creative4, title: "After Effects" }],
+        description: "Our creative process is a journey that starts with extensive research and exploration and culminates in the delivery of stunning high-fidelity designs. Our team creates visually stunning and responsive designs using an extensive range of tools and technologies, such as Photoshop, Sensei, After Effects, Illustrator, Figma, HTML, and CSS.",
+        btn1: "Read MORE",
+        btn2: "Hire UI/UX Designer"
+    },
+    {
+
+        id: 2,
+        mainimg: WebDesign,
+        heading: "Web",
+        innHeading: "Development",
+        detail: [{ img: WebDesign1, title: "Angular Js" }, { img: WebDesign2, title: "React Js" }, { img: WebDesign3, title: "Vue Js" }, { img: WebDesign4, title: "JavaScript" }],
+        description: "Our creative process is a journey that starts with extensive research and exploration and culminates in the delivery of stunning high-fidelity designs. Our team creates visually stunning and responsive designs using an extensive range of tools and technologies, such as Photoshop, Sensei, After Effects, Illustrator, Figma, HTML, and CSS. ",
+        btn1: "Read MORE",
+        btn2: "Hire Web Developers"
+    },
+    {
+
+        id: 3,
+        mainimg: MobileDesign,
+        heading: "Mobile App",
+        innHeading: "Development",
+        detail: [{ img: MobileDesign1, title: "Node.Js" }, { img: MobileDesign2, title: "Laravel" }, { img: MobileDesign3, title: "Golang" }, { img: MobileDesign4, title: "Python" }],
+        description: "Our creative process is a journey that starts with extensive research and exploration and culminates in the delivery of stunning high-fidelity designs. Our team creates visually stunning and responsive designs using an extensive range of tools and technologies, such as Photoshop, Sensei, After Effects, Illustrator, Figma, HTML, and CSS.",
+        btn1: "Read MORE",
+        btn2: "Hire Mobile App Developer"
+    },
+    {
+
+        id: 4,
+        mainimg: CloudDesign,
+        heading: "Cloud",
+        innHeading: "Computing",
+        detail: [{ img: CloudDesign1, title: "AWS" }, { img: Creative2, title: "DevOps" }, { img: Creative3, title: "Kubernetes" }, { img: Creative4, title: "Docker" }],
+        description: "Our team of experienced developers ensures that the applications we build are highly available, secure, and optimized for performance. We specialize in developing custom cloud solutions that cater to the unique needs of each client, ensuring that their applications are tailor-made for their business.",
+        btn1: "Read MORE",
+        btn2: "Hire Full Stack Development"
+    },
+    {
+
+        id: 5,
+        mainimg: DigitalDesign,
+        heading: "Digital",
+        innHeading: "Transformation",
+        detail: [{ img: DigitalDesign1, title: "Artificial intelligence" }, { img: DigitalDesign2, title: "Machine learning" }, { img: DigitalDesign3, title: "Software Development" }, { img: DigitalDesign4, title: "Big Date" }],
+        description: "Our experts provide complete digital business transformation services, delivering exceptional solutions tailored to each client's unique needs. We excel in developing innovative strategies, implementing cutting-edge technologies, and providing expert guidance and support to drive business growth and success.",
+        btn1: "Read MORE",
+        btn2: "Hire Full Stack Developer"
+    },
+]
+
+const framework = [
+    {
+        id: 1,
+        img: CloudDesign1,
+        title: "AWS",
+        innTitle: "Development"
+    },
+    {
+        id: 2,
+        img: CloudDesign4,
+        title: "Docker",
+        innTitle: "Development"
+    },
+    {
+        id: 3,
+        img: MobileDesign3,
+        title: "GoLang",
+        innTitle: "Development"
+    },
+    {
+        id: 4,
+        img: DigitalDesign3,
+        title: "Flutter",
+        innTitle: "Development"
+    },
+    {
+        id: 5,
+        img: WebDesign2,
+        title: "React",
+        innTitle: "Development"
+    },
+    {
+        id: 6,
+        img: DigitalDesign4,
+        title: "Firebase",
+        innTitle: "Development"
+    }
+]
+
+const frameworkHeading = [
+    {
+        id: 1,
+        heading: "Our Team's  ",
+        innHeading: "Expertise and Frameworks",
+        subtitle: ""
+    }
+]
+
+const serviceEngagement = [
+    {
+        id: 1,
+        img: '',
+        title: "Fixed Price Model",
+        detail: "Our development process follows agile methodologies, which are designed to be efficient, responsive, and easy. This approach enables our team to complete projects quickly and deliver high-quality software without friction."
+    },
+    {
+        id: 2,
+        img: '',
+        title: "Hourly Basis Model",
+        detail: "Clients seeking flexibility in project timelines and scope would find this model to be suitable. With this model, payment is based on the actual hours dedicated to the development process."
+    },
+    {
+        id: 3,
+        img: '',
+        title: "Dedicated Hiring Model",
+        detail: "The Dedicated Resource Hiring Model involves paying a fixed fee for each resource hire and is well-suited for larger projects that require a team of developers with diverse skills and expertise."
+    },
+]
+
+const serviceEngagementHeading = [
+    {
+        id: 1,
+        heading: "Our Flexible  ",
+        innHeading: " Engagement Models",
+        subtitle: "As a trusted provider of IT outsourcing services, MultiQoS can help you navigate the complex world of outsourcing and select the most suitable option for your company's needs and expectations. We work closely with our clients to understand their business objectives and requirements, and then leverage our extensive network of partners to find the best fit."
+    }
+]
+
+const lookingServices = [
+    {
+        id: 1,
+        title: "Start Your Dream Project with Our Innovation Expertise!",
+        subtitle: "Our experts provide complete digital business transformation services, delivering exceptional solutions tailored to each client's unique needs. We excel in developing innovative strategies, implementing cutting-edge technologies, and providing expert guidance and support to drive business growth and success.",
+        btn: "Hire Full Stack Developer"
+
+    }
+]
+
+const askQuestionServices = [
+    {
+        id: 1,
+        question: "What Type Of Software Development Services are available?",
+        Ans: "There are several types of software development services that are widely used in the industry, each catering to specific needs and requirements. Here are some of the most popular types of software development solutions:"
+    },
+    {
+        id: 2,
+        question: "What type of advantages of outsourcing Software development Service?",
+        Ans: "There are several types of software development services that are widely used in the industry, each catering to specific needs and requirements. Here are some of the most popular types of software development solutions:"
+    },
+    {
+        id: 3,
+        question: "Will I get post-mobile app development support?",
+        Ans: "There are several types of software development services that are widely used in the industry, each catering to specific needs and requirements. Here are some of the most popular types of software development solutions:"
+    },
+    {
+        id: 4,
+        question: "Can you help me complete my incomplete app development project?",
+        Ans: "There are several types of software development services that are widely used in the industry, each catering to specific needs and requirements. Here are some of the most popular types of software development solutions:"
+    },
+]
+
+const askQuestionServicesHeading = [
+    {
+        id: 1,
+        heading: "Do You Have  ",
+        innHeading: " Additional Questions?",
+        subtitle: "Here, we've compiled a list of FAQs about our services that you might have and many of our clients have asked us:"
+    }
+]
+
+
+//creative Design page
+
+const creativeDesignPageHeading = [
+    {
+        id: 1,
+        companypartnerimg: ServiceHeading,
+        title: "Digital Design Services for ",
+        innertitle: "Ambitious Brands",
+        subtitle: "It is a prevalent phenomenon for people , or tracking. Our passionapplications.s, as it has for us. Our mission is to create a ripple effect that will transform the way you perceive the world, and we are fully committed to making this a reality.",
+        btn1: "Get a free quote",
+        btn2: "Learn More"
+    }
+]
+const askQuestionCreativeDesign = [
+    {
+        id: 1,
+        question: "What is app design?",
+        Ans: "App design refers to the process of creating the graphical and touch-sensitive front end of an application that allows users to interact with it."
+    },
+    {
+        id: 2,
+        question: "What is application UI design?",
+        Ans: "App design refers to the process of creating the graphical and touch-sensitive front end of an application that allows users to interact with it."
+    },
+    {
+        id: 3,
+        question: "How long does it take to design an application?",
+        Ans: "App design refers to the process of creating the graphical and touch-sensitive front end of an application that allows users to interact with it."
+    },
+    {
+        id: 4,
+        question: "Can you create a project from scratch?",
+        Ans: "App design refers to the process of creating the graphical and touch-sensitive front end of an application that allows users to interact with it."
+    },
+    {
+        id: 5,
+        question: "Do you have capabilities for app development?",
+        Ans: "App design refers to the process of creating the graphical and touch-sensitive front end of an application that allows users to interact with it."
+    },
+    {
+        id: 6,
+        question: "How much does it cost to design a mobile app?",
+        Ans: "App design refers to the process of creating the graphical and touch-sensitive front end of an application that allows users to interact with it."
+    },
+    {
+        id: 7,
+        question: "What does mobile design services typically involve?",
+        Ans: "App design refers to the process of creating the graphical and touch-sensitive front end of an application that allows users to interact with it."
+    },
+]
+
+const askQuestionHeadingCreativeDesign = [
+    {
+        id: 1,
+        heading: "FAQ About Digital      ",
+        innHeading: " Design Services",
+        subtitle: "Here, we've compiled a list of FAQs about our services that you might have and many of our clients have asked us: "
+    }
+]
+
+const powerProjectHeading = [
+    {
+        id: 1,
+        heading: "We Use To Power",
+        innHeading: " Our Projects",
+        subtitle: "Here is an array of tools and technologies our AI developers proficiently utilize to build your mission-critical AI solution: "
+    }
+]
+
+const creativeDesignpowerProject = [
+    {
+        id: 1,
+        title: "UI/UX Design",
+        detail: [{ subtitle: "Figma" }, { subtitle: "Illustrator" }, { subtitle: "Photoshop" }, { subtitle: "Adobe XD" }, { subtitle: "Sketch" }]
+    },
+    {
+        id: 2,
+        title: "Prototyping",
+        detail: [{ subtitle: "Sketch" }, { subtitle: "Invision Studio" }, { subtitle: "Adobe XD" }, { subtitle: "Figma" },]
+    },
+    {
+        id: 3,
+        title: "Graphic Design",
+        detail: [{ subtitle: "Illustrator" }, { subtitle: "Photoshop" }, { subtitle: "Sketch" },]
+    },
+    {
+        id: 4,
+        title: "Motion Graphics/  Animations",
+
+        detail: [{ subtitle: "After Effects" }, { subtitle: "Adobe Animate " },]
+    }
+]
+
+
+const lookingCtreativeDesign = [
+    {
+        id: 1,
+        title: "Ready to Elevate Your Brand? Let Our Design Team Help!",
+        subtitle: "Our team of designers is excited to hear about your project and provide their expertise to produce something exceptional for your business.",
+        btn: "Explore Opening"
+
+    }
+]
+
+const creativeDesignRange = [
+    {
+        id: 1,
+        heading: "Access to a Diverse",
+        innHeading: " Range of Design Services",
+        lastHeading: " at Your",
+        subHeading: "Fingertips",
+        para1: "ThinkNovus is a professional digital design services provider. Creating stunning compositions and unforgettable experiences begins with visualizing the most original ideas. The work we deliver serves as the final touch that holds immense sway over the success of your products. Our services encompass the creation of digital interactive and responsive web and mobile applications, along with other offerings.",
+        para2: "As a highly skilled design and development company with a global presence in India, Germany, and the USA, ThinkNovus boasts a proficient team of designers committed to delivering impeccable creative design services. Our goal is to capture your audience with an engaging user experience that keeps them scrolling through your applications. At ThinkNovus, our designers are more than just a team - they are a force of innovators who strive to set industry standards in digital design. With a deep understanding of your business objectives, our designers illustrate their creativity by keeping up with constantly evolving market trends.",
+        detail: [{ title: "500+", description: "Products Delivered" }, { title: "12+", description: "Years of Experience" }, { title: "145+", description: "Specialists" }, { title: "370+", description: "Happy Clients" }]
+    }
+]
+
+
+const creativeStackHeading = [
+    {
+        id: 1,
+        heading: "Technology Stack",
+        innHeading: " We Use in Projects",
+        subtitle: " "
+    }
+]
+
+const creativestack = [
+    {
+        id: 1,
+        img: stack1,
+        title: "Figma"
+    },
+    {
+        id: 2,
+        img: stack2,
+        title: "Sketch"
+    },
+    {
+        id: 3,
+        img: stack3,
+        title: "Photoshop"
+    },
+    {
+        id: 4,
+        img: stack4,
+        title: "Illustrator"
+    },
+    {
+        id: 5,
+        img: stack5,
+        title: "After Effects"
+    },
+    {
+        id: 6,
+        img: stack6,
+        title: "XD"
+    },
+]
+
+const creativeUiUxDesign = [
+    {
+        id: 1,
+        btn: "UI Design",
+        img: creativeuiux1
+
+    },
+    {
+        id: 2,
+        btn: "Interaction Design",
+        img: creativeuiux2
+    },
+    {
+        id: 3,
+        btn: "UX Design",
+        img: creativeuiux3
+    },
+    {
+        id: 4,
+        btn: "Prototyping",
+        img: creativeuiux1
+    }
+]
+
+const creativeUiUxDesignHeading = [
+    {
+        id: 1,
+        heading: "UI/UX Designs for Mobile and ",
+        innHeading: "Web Applications",
+        subtitle: "Our team of UX and UI experts blends their vast expertise with a comprehensive awareness of the most recent technological trends to create visually stunning web & mobile app designs. See below for a comprehensive list of our mobile and web UI designs."
+    }
+]
+const creativeGraphicDesignHeading = [
+    {
+        id: 1,
+        heading: "Graphic Design & ",
+        innHeading: "Illustrations",
+        subtitle: "Our team of UX and UI experts blends their vast expertise with a comprehensive awareness of the most recent technological trends to create visually stunning web & mobile app designs. See below for a comprehensive list of our mobile and web UI designs."
+    }
+]
+const creativeGraphicDesign = [
+    {
+        id: 1,
+        btn: "UI Design",
+        img: creativegraphic1
+
+    },
+    {
+        id: 2,
+        btn: "Interaction Design",
+        img: creativegraphic2
+    },
+    {
+        id: 3,
+        btn: "UX Design",
+        img: creativeuiux3
+    },
+    {
+        id: 4,
+        btn: "Prototyping",
+        img: creativegraphic1
+    }
+]
+
+const creativeBoundriesHeading = [
+    {
+        id: 1,
+        heading: "Our Design Services Push ",
+        innHeading: "Creative Boundaries",
+        subtitle: "Our design services not only offer cost-effectiveness, but also create user-friendly interfaces that guide and motivate users to take actions that are advantageous to your business."
+    }
+]
+
+
+const creativeBoundries = [
+    {
+        id: 1,
+        img: boundries1,
+        title: "UX Design",
+        detail: "Crafting seamless user experience with elegant and intuitive design",
+        btn: "View more"
+
+    },
+    {
+        id: 2,
+        img: boundries2,
+        title: "Branding",
+        detail: "Crafting seamless user experience with elegant and intuitive design",
+        btn: "View more"
+    },
+    {
+        id: 3,
+        img: boundries3,
+        title: "3D Design",
+        detail: "Crafting seamless user experience with elegant and intuitive design",
+        btn: "View more"
+
+    },
+    {
+        id: 4,
+        img: boundries4,
+        title: "Illustration",
+        detail: "Crafting seamless user experience with elegant and intuitive design",
+        btn: "View more"
+    },
+    {
+        id: 5,
+        img: boundries2,
+        title: "UX Design",
+        detail: "Crafting seamless user experience with elegant and intuitive design",
+        btn: "View more"
+
+    },
+    {
+        id: 6,
+        img: boundries4,
+        title: "Branding",
+        detail: "Crafting seamless user experience with elegant and intuitive design",
+        btn: "View more"
+    }
+]
+
+//Android Page
+
+const AndroidMainPageHeading = [
+    {
+        id: 1,
+        companypartnerimg: AndroidMainHeading,
+        title: "Android App  ",
+        innertitle: "Development Services",
+        subtitle: "Welcome to ThinkNovus, your trusted partner for cutting-edge Android app development solutions. Our experienced team of developers is dedicated to transforming your ideas into high-quality, user-friendly, and scalable Android applications.",
+        btn1: "Get a free quote",
+        btn2: "Talk to our expert"
+    }
+]
+
+const askQuestionAndroidApp = [
+    {
+        id: 1,
+        question: "What is Android app development, and why is it important for my business?",
+        Ans: "Android app development is the process of creating applications for devices running the Android operating system. It's crucial for businesses to reach a vast audience using Android devices and enhance their digital presence."
+    },
+    {
+        id: 2,
+        question: "Why should I choose ThinkNovus for Android app development?",
+        Ans: "Android app development is the process of creating applications for devices running the Android operating system. It's crucial for businesses to reach a vast audience using Android devices and enhance their digital presence."
+    },
+    {
+        id: 3,
+        question: "How long does it take to design an application?",
+        Ans: "Android app development is the process of creating applications for devices running the Android operating system. It's crucial for businesses to reach a vast audience using Android devices and enhance their digital presence."
+    },
+    {
+        id: 4,
+        question: "What types of Android app development services do you offer?",
+        Ans: "Android app development is the process of creating applications for devices running the Android operating system. It's crucial for businesses to reach a vast audience using Android devices and enhance their digital presence."
+    },
+    {
+        id: 5,
+        question: "What is the difference between native and cross-platform Android app development?",
+        Ans: "Android app development is the process of creating applications for devices running the Android operating system. It's crucial for businesses to reach a vast audience using Android devices and enhance their digital presence."
+    },
+    {
+        id: 6,
+        question: "How can UI/UX design impact the success of my Android app?",
+        Ans: "Android app development is the process of creating applications for devices running the Android operating system. It's crucial for businesses to reach a vast audience using Android devices and enhance their digital presence."
+    },
+    {
+        id: 7,
+        question: "Can you customize Android app development to suit my business requirements?",
+        Ans: "Android app development is the process of creating applications for devices running the Android operating system. It's crucial for businesses to reach a vast audience using Android devices and enhance their digital presence."
+    },
+    {
+        id: 8,
+        question: "What is involved in the Android app development process with ThinkNovus?",
+        Ans: "Android app development is the process of creating applications for devices running the Android operating system. It's crucial for businesses to reach a vast audience using Android devices and enhance their digital presence."
+    },
+    {
+        id: 9,
+        question: "How long does it take to develop an Android app?",
+        Ans: "Android app development is the process of creating applications for devices running the Android operating system. It's crucial for businesses to reach a vast audience using Android devices and enhance their digital presence."
+    },
+    {
+        id: 10,
+        question: "What technologies and tools do you use for Android app development?",
+        Ans: "Android app development is the process of creating applications for devices running the Android operating system. It's crucial for businesses to reach a vast audience using Android devices and enhance their digital presence."
+    },
+    {
+        id: 11,
+        question: "How do you handle ongoing maintenance and support for Android apps?",
+        Ans: "Android app development is the process of creating applications for devices running the Android operating system. It's crucial for businesses to reach a vast audience using Android devices and enhance their digital presence."
+    },
+    {
+        id: 12,
+        question: "Can you provide references or examples of your successful Android app development projects?",
+        Ans: "Android app development is the process of creating applications for devices running the Android operating system. It's crucial for businesses to reach a vast audience using Android devices and enhance their digital presence."
+    },
+    {
+        id: 13,
+        question: "How can I get started with Android app development services from ThinkNovus?",
+        Ans: "Android app development is the process of creating applications for devices running the Android operating system. It's crucial for businesses to reach a vast audience using Android devices and enhance their digital presence."
+    },
+
+]
+
+const lookingAndroidApp = [
+    {
+        id: 1,
+        title: "Do you want a team that doesn’t stop until they hit the perfection of your idea?",
+        subtitle: "Our team of designers is excited to hear about your project and provide their expertise to produce something exceptional for your business.",
+        btn: "Hire Android app developer"
+
+    }
+]
+
+const androidAppService = [
+    {
+        id: 1,
+        img: AndroidServices1,
+        title: "Native App Development",
+        detail: "We provide a solid back end to your website/app/software operations with our backend development services."
+    },
+    {
+        id: 2,
+        img: AndroidServices2,
+        title: "Cross-Platform Development",
+        detail: "Put a right digital face forward. With our frontend development services we ensure our UI/UX techniques fall right into the face."
+    },
+    {
+        id: 3,
+        img: AndroidServices3,
+        title: "UI/UX Design",
+
+        detail: "Build a dynamic, responsive and feature-rich app that brings great impact for your organization with our JavaScript development services."
+    },
+    {
+        id: 4,
+        img: AndroidServices4,
+        title: "Enterprise App Development",
+
+        detail: "With our Microsoft expertise, we deliver modern adaptive web platforms and strong secure backend to build your business operations with ease."
+    },
+    {
+        id: 5,
+        img: AndroidServices5,
+        title: "App Testing",
+        detail: "Benefit from our CMS development services to gain a CMS that helps you intuitively update your site with flexibility."
+    },
+    {
+        id: 6,
+        img: AndroidServices6,
+        title: "Maintenance and support",
+        detail: "We help you set the standard of eCommerce website in the market and boost the online presence with a lot of revenue."
+    },
+]
+
+const androidAppServiceHeading = [
+    {
+        id: 1,
+        heading: "Our Android App Development ",
+        innHeading: " Services",
+        subtitle: "Our experts provide complete digital business transformation services, delivering exceptional solutions tailored to each client's unique needs. We excel in developing innovative strategies, implementing cutting-edge technologies, and providing expert guidance and support to drive business growth and success. "
+    }
+]
+
+const whyChooseAndroisApp=[
+    {
+        id:1,
+        img: chooseAndroid1,
+        title:"Expertise",
+        detail:"Benefit from our team of skilled Android app developers with a proven track record in creating innovative and feature-rich applications across various industries."
+    },
+    {
+        id:2,
+        img: chooseAndroid2,
+        title:"Custom Solutions",
+        detail:"We understand that each business is unique. Our Android app development services are tailored to meet your specific requirements, ensuring a personalized solution that aligns with your goals."
+    },
+    {
+        id:3,
+        img: chooseAndroid3,
+        title:"User-Centric Approach",
+        detail:"Our focus is on creating apps that provide an exceptional user experience. We prioritize user interface (UI) and user experience (UX) design to ensure your app stands out in the competitive market."
+
+    },
+    {
+        id:4,
+        img: chooseAndroid4,
+        title:"Scalability ",
+        detail:"We design and develop Android applications that can grow with your business. Our scalable solutions ensure that your app can handle increased user loads and additional features seamlessly."
+    },
+    {
+        id:5,
+        img: chooseAndroid3,
+        title:"User-Centric Approach",
+        detail:"Our focus is on creating apps that provide an exceptional user experience. We prioritize user interface (UI) and user experience (UX) design to ensure your app stands out in the competitive market."
+
+    },
+    {
+        id:6,
+        img: chooseAndroid4,
+        title:"Scalability ",
+        detail:"We design and develop Android applications that can grow with your business. Our scalable solutions ensure that your app can handle increased user loads and additional features seamlessly."
+    }
+]
+
+const whyChooseAndroisAppHeading = [
+    {
+        id: 1,
+        heading: "Why Choose ThinkNovus for  ",
+        innHeading: "Android App Development?",
+        subtitle: "ThinkNovus has successfully delivered 4K+ web development projects ranging from web-based apps, e-commerce portals, CMS, B2B & B2C applications, Intranet and Extranet Portals, and more. With our bespoke  "
+    }
+]
+
+const raisingAndroidApp=[
+    {
+        id:1,
+        img: chooseAndroid1,
+        heading:"30+",
+        detail:"Android Experts"
+    },
+    {
+        id:2,
+        img: chooseAndroid2,
+        heading:"14+",
+        detail:"Years Of Experience"
+    },
+    {
+        id:3,
+        img: chooseAndroid3,
+        heading:"100+",
+        detail:"Android Projects Completed"
+    },
+    {
+        id:4,
+        img: chooseAndroid4,
+        heading:"280+",
+        detail:"Custom Mobile App Projects"
+    },
+]
 export {
     CompanyPartnerss,
     Frame,
@@ -1645,7 +2405,7 @@ export {
     askQuestionHeading,
     lookingWebCom,
     devServices,
-  
+
     webdevServicesHeading,
     webDevService,
     toolsTechHeading,
@@ -1675,7 +2435,46 @@ export {
     whyChooseUsHeadingmobileApp,
     mobileAppSolutionHeading,
     mobileAppEngagementModelHeading,
-    toolsTechHeadingmobileApp
+    toolsTechHeadingmobileApp,
+
+    //Service Page
+    servicePageHeading,
+    designs,
+    framework,
+    frameworkHeading,
+    lookingServices,
+    serviceEngagement,
+    serviceEngagementHeading,
+    askQuestionServices,
+    askQuestionServicesHeading,
+    //creative design
+    creativeDesignPageHeading,
+    askQuestionCreativeDesign,
+    askQuestionHeadingCreativeDesign,
+    powerProjectHeading,
+    creativeDesignpowerProject,
+    lookingCtreativeDesign,
+    creativeDesignRange,
+    creativestack,
+    creativeStackHeading,
+    creativeUiUxDesign,
+    creativeUiUxDesignHeading,
+    creativeGraphicDesignHeading,
+    creativeGraphicDesign,
+    creativeBoundriesHeading,
+    creativeBoundries,
+    //Android Page
+    AndroidMainPageHeading,
+    askQuestionAndroidApp,
+    lookingAndroidApp,
+    androidAppService,
+    androidAppServiceHeading,
+    whyChooseAndroisApp,
+    whyChooseAndroisAppHeading,
+    raisingAndroidApp
+
+
+
 }
 
 

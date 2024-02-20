@@ -306,7 +306,7 @@ export type WebQA = {
   detail: { img: any, title: string }[]
 }
 
-export type WebHeadingPage={
+export type WebHeadingPage = {
   id: number
   title: string
   innertitle: string
@@ -317,17 +317,17 @@ export type WebHeadingPage={
 }
 
 
-export type Projects={
+export type Projects = {
   id: number,
   title: string
   description: string
-  src:string
+  src: string
   link: string
   color: string
 }
 
 //mobileApp
-export type MobileHeadingPage={
+export type MobileHeadingPage = {
   id: number
   title: string
   innertitle: string
@@ -337,15 +337,112 @@ export type MobileHeadingPage={
   btn2: string
 }
 
-export type Results={
+export type Results = {
   id: number
   title: string
   subtitle: string
-  detail:{para: string}[]
+  detail: { para: string }[]
 }
-export type MobileAppResults={
+export type MobileAppResults = {
   id: number
   title: string
   subtitle: string
-  detail:{para: string}[]
+  detail: { para: string }[]
+}
+
+export type ServiceDesigns = {
+  id: number
+  mainimg: any
+  heading: string
+  innHeading: string
+  detail: { img: any, title: string }[]
+  description: string
+  btn1: string
+  btn2: string
+}
+
+export type FrameWorks = {
+  id: number
+  img: any
+  title: string
+  innTitle: string
+}
+
+export type FrameworkHeadings = {
+  id: number
+  heading: string
+  innHeading: string
+  subtitle: string
+}
+
+export type LookingServices = {
+  id: number
+  title: string
+  subtitle: string
+  btn: string
+}
+
+export type ServiceEngagements = {
+  id: number
+  img: any
+  title: string
+  detail: string
+}
+
+export type AskQuestionServicess = {
+  id: number
+  question: string
+  Ans: string
+}
+
+export type CreativeDesignRanges = {
+  id: number
+  heading: string
+  innHeading: string
+  lastHeading: string
+  subHeading: string
+  para1: string
+  para2: string
+  detail: { title: string, description: string }[]
+}
+
+export type Creativestacks={
+  id: number
+  img: any
+  title: string
+}
+
+export type CreativeStackHeadings={
+  id: number
+  heading: string
+  innHeading: string
+  subtitle: string
+}
+
+export type CreativeUiUxDesigns={
+  id: number
+  btn : string
+  img: any
+}
+
+export type CreativeBoundriess={
+  id:number
+  img: any
+  title: string
+  detail: string
+  btn: string
+}
+
+export type WhyChooseAndroisApps={
+ id: number
+ img: any
+ title: string
+ detail: string
+}
+
+export type RaisingAndroidApps={
+  id: number
+  img: any
+  heading: string
+  detail: string
 }

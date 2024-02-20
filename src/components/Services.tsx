@@ -1,16 +1,18 @@
 import Heading from "@/allHeading/Heading";
 import { WebDevServices } from "@/interface";
-import { webdevServicesHeading, mobileappServicesHeading } from "@/utils/Constant";
+import { webdevServicesHeading, mobileappServicesHeading, androidAppServiceHeading } from "@/utils/Constant";
 import Image from 'next/image';
 import React from 'react';
 
 type ServicesProps = {
   data: WebDevServices[];
-  isMobileApp?: boolean;  // New prop to determine if it's a mobile app component
+  isMobileApp?: boolean;
+  isAndroidApp?: boolean;  // New prop to determine if it's a mobile app component
 };
 
-const Services = ({ data, isMobileApp }: ServicesProps) => {
-  const headingData = isMobileApp ? mobileappServicesHeading : webdevServicesHeading;
+    // New prop to determine if it's a mobile app component
+  const Services = ({ data, isMobileApp, isAndroidApp  }: ServicesProps) => {
+  const headingData = isMobileApp ? mobileappServicesHeading : isAndroidApp? androidAppServiceHeading:  webdevServicesHeading;
 
   return (
     <>
