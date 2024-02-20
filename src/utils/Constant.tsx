@@ -2344,7 +2344,7 @@ const whyChooseAndroisAppHeading = [
         id: 1,
         heading: "Why Choose ThinkNovus for  ",
         innHeading: "Android App Development?",
-        subtitle: "ThinkNovus has successfully delivered 4K+ web development projects ranging from web-based apps, e-commerce portals, CMS, B2B & B2C applications, Intranet and Extranet Portals, and more. With our bespoke  "
+        subtitle: "ThinkNovus has successfully delivered 4K+ web development project is ranging from web-based apps, e-commerce portals, CMS, B2B & B2C applications, Intranet and Extranet Portals, and more. With our bespoke  "
     }
 ]
 
